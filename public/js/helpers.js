@@ -9,7 +9,7 @@
             return factory(utils, Handlebars, string, config.relative_path);
         });
     } else {
-        window.helpers = factory(utils, Handlebars, window.String, config.relative_path);
+        window.helpers = factory(utils, window.String, config.relative_path);
     }
 }(function (utils, Handlebars, S, relative_path) {
     var helpers = {

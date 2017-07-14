@@ -6,6 +6,7 @@ var db = require('../database');
 var Controllers = module.exports;
 
 Controllers.user = require('./user');
+Controllers.account = require('./account');
 
 Controllers.home = function (req, res, next) {
     var data = {};
@@ -30,7 +31,7 @@ Controllers.login = function (req, res, next) {
 
 Controllers.settings = function (req, res, callback) {
     var data = {};
-    data.title = "Settings - HuuMinh DL Script";
+    data.title = "Settings";
     data.navActive = "settings";
 
     async.waterfall([

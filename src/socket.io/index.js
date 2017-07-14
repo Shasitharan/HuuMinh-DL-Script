@@ -30,11 +30,6 @@ Sockets.init = function (server) {
 
     io.on('connection', onConnection);
 
-    /*
-     * Restrict socket.io listener to cookie domain. If none is set, infer based on url.
-     * Production only so you don't get accidentally locked out.
-     * Can be overridden via config (socket.io:origins)
-     */
     if (process.env.NODE_ENV !== 'development') {
         var domain = nconf.get('cookieDomain');
         var parsedUrl = url.parse(nconf.get('url'));
@@ -74,11 +69,7 @@ function onConnection(socket) {
 function onConnect(socket) {
     if (socket.uid) {
         socket.join('uid_' + socket.uid);
-        socket.join('online_users');
-    } else {
-        socket.join('online_guests');
     }
-
     socket.join('sess_' + socket.request.signedCookies[nconf.get('sessionKey')]);
     io.sockets.sockets[socket.id].emit('checkSession', socket.uid);
 }
@@ -98,6 +89,7 @@ function onMessage(socket, payload) {
 
     var parts = eventName.toString().split('.');
     var namespace = parts[0];
+
     var methodToCall = parts.reduce(function (prev, cur) {
         if (prev !== null && prev[cur]) {
             return prev[cur];
@@ -109,7 +101,7 @@ function onMessage(socket, payload) {
         if (process.env.NODE_ENV === 'development') {
             winston.warn('[socket.io] Unrecognized message: ' + eventName);
         }
-        return callback({ message: '[[error:invalid-event]]' });
+        return callback({ message: 'Invalid events' });
     }
 
     socket.previousEvents = socket.previousEvents || [];
@@ -118,7 +110,7 @@ function onMessage(socket, payload) {
         socket.previousEvents.shift();
     }
 
-    if (!eventName.startsWith('admin.') && ratelimit.isFlooding(socket)) {
+    if (ratelimit.isFlooding(socket)) {
         winston.warn('[socket.io] Too many emits! Disconnecting uid : ' + socket.uid + '. Events : ' + socket.previousEvents);
         return socket.disconnect();
     }
@@ -146,8 +138,7 @@ function onMessage(socket, payload) {
 }
 
 function requireModules() {
-    var modules = [];
-
+    var modules = ['meta'];
     modules.forEach(function (module) {
         Namespaces[module] = require('./' + module);
     });
@@ -155,14 +146,12 @@ function requireModules() {
 
 function checkMaintenance(socket, callback) {
     var meta = require('../meta');
-    if (parseInt(meta.config.maintenanceMode, 10) !== 1) {
+
+    if (parseInt(meta.config.maintenanceMode, 10) !== 'yes') {
         return setImmediate(callback);
     }
-    user.isAdministrator(socket.uid, function (err, isAdmin) {
-        if (err || isAdmin) {
-            return callback(err);
-        }
-    });
+
+    callback();
 }
 
 function validateSession(socket, callback) {
@@ -170,11 +159,11 @@ function validateSession(socket, callback) {
     if (!req.signedCookies || !req.signedCookies[nconf.get('sessionKey')]) {
         return callback();
     }
+
     db.sessionStore.get(req.signedCookies[nconf.get('sessionKey')], function (err, sessionData) {
         if (err || !sessionData) {
-            return callback(err || new Error('invalid-session'));
+            return callback(err || new Error('Invalid session'));
         }
-
         callback();
     });
 }
@@ -183,7 +172,7 @@ function authorize(socket, callback) {
     var request = socket.request;
 
     if (!request) {
-        return callback(new Error('not-authorized'));
+        return callback(new Error('Not Authorized'));
     }
 
     async.waterfall([
@@ -197,7 +186,7 @@ function authorize(socket, callback) {
                 }
                 if (sessionData && sessionData.passport && sessionData.passport.user) {
                     request.session = sessionData;
-                    socket.uid = parseInt(sessionData.passport.user, 10);
+                    socket.uid = parseInt(sessionData.passport.user.uid, 10);
                 } else {
                     socket.uid = 0;
                 }

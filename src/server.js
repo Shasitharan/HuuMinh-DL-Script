@@ -58,7 +58,7 @@ module.exports.listen = function (callback) {
         },
         function (next) {
             winston.info('HuuMinh DL Script Ready');
-            require('./socket.io').server.emit('event:nodebb.ready', {
+            require('./socket.io').server.emit('event:huuminh.ready', {
                 'cache-buster': meta.config['cache-buster'],
             });
 
@@ -123,6 +123,8 @@ function setupExpressApp(app, callback) {
     }));
 
     app.use(express.static('public'));
+    app.use(express.static('node_modules/socket.io-client/dist'));
+    app.use(express.static('node_modules/xregexp'));
 
     app.use(middleware.checkBanned);
     app.use(middleware.addHeaders);

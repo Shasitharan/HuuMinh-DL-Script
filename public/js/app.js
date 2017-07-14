@@ -7,6 +7,57 @@ var app = window.app || {};
         timeOut: 3000
     };
 
+    app.load = function () {
+        Visibility.change(function (event, state) {
+            if (state === 'visible') {
+                app.isFocused = true;
+            } else if (state === 'hidden') {
+                app.isFocused = false;
+            }
+        });
+
+        socket.removeAllListeners('event:huuminh.ready');
+
+        helpers.register();
+
+        $(window).trigger('action:app.load');
+    }
+
+    app.enterRoom = function (room, callback) {
+        callback = callback || function () {};
+        if (socket && app.logged_id && app.currentRoom !== room) {
+            var previousRoom = app.currentRoom;
+            app.currentRoom = room;
+            socket.emit('meta.rooms.enter', {
+                enter: room,
+            }, function (err) {
+                if (err) {
+                    app.currentRoom = previousRoom;
+                    return toastr.error(err.message);
+                }
+                callback();
+            });
+        }
+    };
+
+    app.leaveCurrentRoom = function () {
+        if (!socket) {
+            return;
+        }
+        var previousRoom = app.currentRoom;
+        app.currentRoom = '';
+        socket.emit('meta.rooms.leaveCurrent', function (err) {
+            if (err) {
+                app.currentRoom = previousRoom;
+                return toastr.error(err.message);
+            }
+        });
+    };
+
+    app.handleInvalidSession = function () {
+        return toastr.error("Session invalid, please try login again!");
+    };
+
     $('.ajax-form').ajaxForm({
         headers: {
             'x-csrf-token': config.csrf_token,
@@ -28,6 +79,28 @@ var app = window.app || {};
         }
     });
 
+    $('.ajax-update-form').ajaxForm({
+        type: "PUT",
+        headers: {
+            'x-csrf-token': config.csrf_token,
+        },
+        beforeSubmit:  function (data, jqF, opt) {
+            $('button[type=submit]', jqF).prop('disabled', true);
+        },
+        success: function (res, status, xhr, $form) {
+            $('button[type=submit]', $form).prop('disabled', false);
+            if(res.error) {
+                toastr.error(res.error_message);
+            } else {
+                toastr.success(res.message);
+            }
+        },
+        error: function (xhr, status, err, $form) {
+            $('button[type=submit]', $form).prop('disabled', false);
+            toastr.error(status);
+        }
+    })
+
     $('#login-form').ajaxForm({
         headers: {
             'x-csrf-token': config.csrf_token,
@@ -37,7 +110,6 @@ var app = window.app || {};
         },
         success: function (res, status, xhr, $form) {
             window.location.href = res;
-            $('button[type=submit]', jqF).prop('disabled', false);
         },
         error: function (xhr, status, err, $form) {
             toastr.error(xhr.responseText);

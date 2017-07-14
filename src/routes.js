@@ -16,10 +16,13 @@ module.exports = function (app, middleware, callback) {
     app.get('/logout', controllers.user.logout);
 
     app.get('/profile', checkLoggedMiddleware, controllers.profile);
+    app.put('/profile', checkLoggedMiddleware, middleware.applyCSRF, controllers.user.updateProfile);
     app.delete('/profile/delete-session', middleware.applyCSRF, checkLoggedMiddleware, controllers.user.deleteSession);
 
+    app.get('/accounts', checkLoggedMiddleware, controllers.account.list);
+
     app.get('/settings', checkLoggedMiddleware, controllers.settings);
-    app.get('/accounts', checkLoggedMiddleware, controllers.accounts);
+
     app.get('/files', checkLoggedMiddleware, controllers.files);
 
     app.post('/settings', checkLoggedMiddleware, controllers.updateSettings);

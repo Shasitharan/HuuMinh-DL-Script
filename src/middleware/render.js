@@ -42,17 +42,23 @@ module.exports = function (middleware) {
                         url: configs.url,
                         name: configs.siteName,
                         maintenance: configs.maintenanceMode,
-                        version: configs.version
+                        version: configs.version,
+                        logged_id: req.uid || 0,
                     };
                     options.templateJS.app = JSON.stringify(options.configs.app);
                     options.templateJS.configs = {
                         file_prefix: configs.downloadPrefix,
                         file_suffix: configs.downloadSuffix,
                         maxReconnectionAttempts: configs.maxReconnectionAttempts,
+                        reconnectionDelay: configs.reconnectionDelay,
                         recaptchaKey: configs.recaptchaKey,
                         realtimeAnalytics: configs.realtimeAnalytics,
                         csrf_token: options.csrf_token,
-                    }
+                        websocketAddress: configs.websocketAddress || "",
+                        relative_path: configs.relative_path || "",
+                        socketioTransports: configs.socketioTransports || ["polling","websocket"],
+                    };
+
                     options.templateJS.configs = JSON.stringify(options.templateJS.configs);
                     async.parallel({
                         header: function (next) {

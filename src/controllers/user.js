@@ -52,6 +52,8 @@ User.deleteSession = function (req, res, next) {
                     User.auth.revokeSession(req.body.sid, req.uid, next);
                 },
                 function (next) {
+                    sockets.in('sess_' + req.body.sid).emit('checkSession', req.uid);
+
                     res.json({
                         error: false,
                         message: "Your changes have been saved!"
@@ -60,6 +62,95 @@ User.deleteSession = function (req, res, next) {
             ], next);
         }
     }
+};
+
+User.updateProfile = function (req, res, next) {
+    if(!req.xhr) {
+        return callback(new Error("Access Denied"));
+    }
+
+    if(!req.body.username) {
+        return res.json({
+            error: true,
+            error_message: "Username is required!"
+        });
+    }
+
+    if(!req.body.email) {
+        return res.json({
+            error: true,
+            error_message: "Email is required!"
+        });
+    }
+
+    var userData = {};
+    userData.username = req.body.username.trim();
+    userData.username = validator.escape(userData.username ? userData.username.toString() : '');
+
+    if (userData.email !== undefined) {
+        userData.email = validator.escape(String(data.email).trim());
+    }
+
+    if(req.body.password) {
+        if(req.body.password !== req.body.confirm_password) {
+            return res.json({
+                error: true,
+                error_message: "Your password and confirm password must match before you can apply"
+            });
+        } else {
+            var password = req.body.password;
+
+            if (!password || !utils.isPasswordValid(password)) {
+                return res.json({
+                    error: true,
+                    error_message: "Invalid password"
+                });
+            }
+
+            if (password.length > 4096) {
+                return res.json({
+                    error: true,
+                    error_message: "Password too long"
+                });
+            }
+        }
+    }
+
+    async.waterfall([
+        function (next) {
+            if(password){
+                User.hashPassword(password, next);
+            } else {
+                next(null, false);
+            }
+        },
+        function (password, next) {
+            if(password) {
+                console.log(password);
+                userData.password = password;
+            }
+            User.getUserField(req.uid, 'username', next);
+        },
+        function (username, next) {
+            async.parallel([
+                function (next) {
+                    db.sortedSetRemove('username:uid', username, next);
+                },
+                function (next) {
+                    User.setUserFields(req.uid, userData, next);
+                },
+                function (next) {
+                    db.sortedSetAdd('username:uid', req.uid, userData.username, next);
+                }
+            ], next);
+        },
+        function (next) {
+            res.json({
+                error: false,
+                message: "Your changes have been saved !",
+            });
+        }
+    ], next);
 };
 
 User.login = function (req, res, next) {
@@ -256,7 +347,6 @@ User.onSuccessfulLogin = function (req, uid, callback) {
             });
         },
         function (next) {
-            // Force session check for all connected socket.io clients with the same session id
             sockets.in('sess_' + req.sessionID).emit('checkSession', uid);
             next();
         },
@@ -313,7 +403,6 @@ User.create = function (data, callback) {
             });
         },
         function (next) {
-            console.log(userData);
             next(null, userData);
         }
     ], callback);
