@@ -6,12 +6,12 @@ HuuMinh DL Script is script generator premium link that allows you to download f
 > Homepage: **https://huuminh.net** \
 > Support: **https://huuminh.net/contact-us/**
 
-##Usage
+## Usage
 1. `npm install -g huuminh-dl`
 2. `huuminh-dl setup`
 3. `huuminh-dl start`
 
-##Configuration
+## Configuration
 You can configure the application using `~/.config/.huuminh-dl.conf`
 ```json
 {
