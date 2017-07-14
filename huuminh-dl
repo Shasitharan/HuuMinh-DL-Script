@@ -116,12 +116,10 @@ var commands = {
 		description: 'Start the HuuMinh DL server',
 		usage: 'Usage: ' + './huuminh-dl start'.yellow,
 		handler: function () {
-			process.stdout.write('\nStarting NodeBB\n'.bold);
+			process.stdout.write('\nStarting HuuMinh DL Script\n'.bold);
 			process.stdout.write('  "' + './huuminh-dl stop'.yellow + '" to stop the HuuMinh DL server\n');
 			process.stdout.write('  "' + './huuminh-dl log'.yellow + '" to view server output\n');
 			process.stdout.write('  "' + './huuminh-dl restart'.yellow + '" to restart HuuMinh DL\n\n'.reset);
-
-			// Spawn a new NodeBB process
 			cproc.fork(loaderPath, {
 				env: process.env,
 			});
@@ -171,11 +169,10 @@ var commands = {
 		description: 'Start the HuuMinh DL Script server and view the live output log',
 		usage: 'Usage: ' + './huuminh-dl slog'.yellow,
 		handler: function () {
-			process.stdout.write('\nStarting NodeBB with logging output\n'.bold);
+			process.stdout.write('\nStarting HuuMinh DL Script with logging output\n'.bold);
 			process.stdout.write('\nHit '.red + 'Ctrl-C '.bold + 'to exit'.red);
 			process.stdout.write('\n\n'.reset);
 
-			// Spawn a new NodeBB process
 			cproc.fork(loaderPath, {
 				env: process.env,
 			});

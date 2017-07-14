@@ -13,8 +13,6 @@ module.exports = function (app, middleware, callback) {
     app.get('/files', controllers.files);
     app.get('/logout', controllers.logout);
     app.get('/profile', controllers.profile);
-
     app.post('/settings', controllers.updateSettings);
-
     callback();
 };
