@@ -50,13 +50,13 @@ AppInit.displayStartupMessages = function (callback) {
 AppInit.addWorkerEvents = function (worker) {
     worker.on('exit', function (code, signal) {
         if (code !== 0) {
-            if (Loader.timesStarted < numProcs * 3) {
-                Loader.timesStarted += 1;
-                if (Loader.crashTimer) {
-                    clearTimeout(Loader.crashTimer);
+            if (AppInit.timesStarted < numProcs * 3) {
+                AppInit.timesStarted += 1;
+                if (AppInit.crashTimer) {
+                    clearTimeout(AppInit.crashTimer);
                 }
-                Loader.crashTimer = setTimeout(function () {
-                    Loader.timesStarted = 0;
+                AppInit.crashTimer = setTimeout(function () {
+                    AppInit.timesStarted = 0;
                 }, 10000);
             } else {
                 console.log((numProcs * 3) + ' restarts in 10 seconds, most likely an error on startup. Halting.');
@@ -77,11 +77,11 @@ AppInit.addWorkerEvents = function (worker) {
             switch (message.action) {
                 case 'restart':
                     console.log('[cluster] Restarting...');
-                    Loader.restart();
+                    AppInit.restart();
                     break;
                 case 'reload':
                     console.log('[cluster] Reloading...');
-                    Loader.reload();
+                    AppInit.reload();
                     break;
             }
         }
@@ -165,7 +165,7 @@ AppInit.restart = function () {
         nconf.set('url', conf.url);
         nconf.stores.env.readOnly = true;
 
-        Loader.start();
+        AppInit.start();
     });
 };
 
@@ -207,7 +207,7 @@ AppInit.notifyWorkers = function (msg, worker_pid) {
 fs.open(path.join(__dirname, 'config.json'), 'r', function (err) {
     if (!err) {
         if (nconf.get('daemon') !== 'false' && nconf.get('daemon') !== false) {
-            if (file.existsSync(pidFilePath)) {
+            if (fs.existsSync(pidFilePath)) {
                 try {
                     var	pid = fs.readFileSync(pidFilePath, { encoding: 'utf-8' });
                     process.kill(pid, 0);
@@ -226,12 +226,12 @@ fs.open(path.join(__dirname, 'config.json'), 'r', function (err) {
         }
 
         async.series([
-            Loader.init,
-            Loader.displayStartupMessages,
-            Loader.start,
+            AppInit.init,
+            AppInit.displayStartupMessages,
+            AppInit.start,
         ], function (err) {
             if (err) {
-                console.log('[loader] Error during startup: ' + err.message);
+                console.log('[AppInit] Error during startup: ' + err.message);
             }
         });
     } else {

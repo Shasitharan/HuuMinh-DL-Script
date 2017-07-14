@@ -1,0 +1,87 @@
+<div class="container">
+    <form method="post" class="form-horizontal ajax-form">
+        <div class="panel panel-default">
+            <div class="panel-heading">Site Settings {{title}}</div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="form-group">
+                            <label class="control-label col-md-2">General</label>
+                            <div class="col-md-10">
+                                <div class="checkbox-inline">
+                                    <label>
+                                        <input {{#ifEquals maintenanceMode "yes"}}checked{{/ifEquals}} name="maintenanceMode" value="yes" type="checkbox"> Maintenance Mode
+                                    </label>
+                                </div>
+                                <div class="checkbox-inline">
+                                    <label>
+                                        <input {{#ifEquals realtimeAnalytics "yes"}}checked{{/ifEquals}} name="realtimeAnalytics" value="yes" type="checkbox"> Realtime Analytics
+                                    </label>
+                                </div>
+                                <div>
+                                    <label class="control-label" for="siteName">Site name</label>
+                                    <input class="form-control" type="text" id="siteName" name="siteName" value="{{siteName}}" />
+                                </div>
+                                <div>
+                                    <label for="url" class="control-label">Site URL</label>
+                                    <input id="url" class="form-control" type="text" name="url" value="{{url}}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Downloads</label>
+                            <div class="col-sm-10">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div>
+                                            <label class="control-label" for="downloadPrefix">Download prefix</label>
+                                            <input class="form-control" type="text" id="downloadPrefix" name="downloadPrefix" value="{{downloadPrefix}}" />
+                                        </div>
+                                        <div>
+                                            <label class="control-label" for="downloadSuffix">Download suffix</label>
+                                            <input class="form-control" type="text" id="downloadSuffix" name="downloadSuffix" value="{{downloadSuffix}}" />
+                                        </div>
+                                        <div>
+                                            <label class="control-label" for="autoDeleteFile">Delete files after (minutes)</label>
+                                            <input class="form-control" type="text" id="autoDeleteFile" name="autoDeleteFile" value="{{autoDeleteFile}}" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Socket.io</label>
+                            <div class="col-sm-10">
+                                <div>
+                                    <label class="control-label" id="maxReconnectionAttempts">Max Reconnection Attempts</label>
+                                    <input class="form-control" type="number" id="maxReconnectionAttempts" name="maxReconnectionAttempts" value="{{maxReconnectionAttempts}}" />
+                                </div>
+                                <div>
+                                    <label class="control-label" id="reconnectionDelay">Reconnection Delay</label>
+                                    <input class="form-control" type="number" id="reconnectionDelay" name="reconnectionDelay" value="{{reconnectionDelay}}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">Re-Captcha</label>
+                            <div class="col-sm-10">
+                                <div>
+                                    <label class="control-label" id="recaptchaKey">Key</label>
+                                    <input class="form-control" type="text" id="recaptchaKey" name="recaptchaKey" value="{{recaptchaKey}}" />
+                                </div>
+                                <div>
+                                    <label class="control-label" id="recaptchaSecret">Secret</label>
+                                    <input class="form-control" type="text" id="recaptchaSecret" name="recaptchaSecret" value="{{recaptchaSecret}}" />
+                                </div>
+                                <p class="help-block"><a href="https://www.google.com/recaptcha/" target="_blank">https://www.google.com/recaptcha/</a> </p>
+                            </div>
+                        </div>
+                    </div><!-- end .row -->
+                </div>
+            </div>
+            <div class="panel-footer">
+                <button type="submit" class="btn btn-primary">Save Changes</button>
+            </div>
+        </div>
+    </form>
+</div>

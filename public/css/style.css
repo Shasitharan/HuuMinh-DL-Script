@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto;
+  margin-top: 51px;
+  padding-top: 15px; }
+
+.panel .panel-heading {
+  font-weight: bold;
+  text-transform: uppercase; }
+.panel .panel-footer {
+  text-align: right; }
+
+footer .copyright {
+  text-align: center;
+  padding: 15px;
+  font-size: 12px; }
+  footer .copyright p {
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */

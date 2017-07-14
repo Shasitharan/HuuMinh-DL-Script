@@ -1,0 +1,1833 @@
+
+
+
+
+
+
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 09:33:29 [78934] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:33:30 [78934] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:55:24 [78934] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:55:24 [78934] - [32minfo[39m: [app] Database connection closed.
+14/7 09:55:24 [78934] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:55:24 [78934] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (78934) has exited (code: 0, signal: null)
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 09:55:31 [79509] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:55:31 [79509] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:55:31 [79509] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 09:55:31 [79509] - [32minfo[39m: Enabling 'trust proxy'
+14/7 09:55:31 [79509] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 09:56:02 [79509] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:56:02 [79509] - [32minfo[39m: [app] Database connection closed.
+14/7 09:56:02 [79509] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:56:02 [79509] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (79509) has exited (code: 0, signal: null)
+14/7 09:56:02 [79521] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:56:03 [79521] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:56:03 [79521] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 09:56:03 [79521] - [32minfo[39m: Enabling 'trust proxy'
+14/7 09:56:03 [79521] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 09:56:22 [79521] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 09:56:22 [79521] - [32minfo[39m: [app] Database connection closed.
+14/7 09:56:22 [79521] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:56:22 [79521] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79521) has exited (code: 0, signal: null)
+14/7 09:56:22 [79528] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:56:23 [79528] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:56:23 [79528] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 09:56:23 [79528] - [32minfo[39m: Enabling 'trust proxy'
+14/7 09:56:23 [79528] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 09:56:42 [79528] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:56:42 [79528] - [32minfo[39m: [app] Database connection closed.
+14/7 09:56:42 [79528] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:56:42 [79528] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79528) has exited (code: 0, signal: null)
+14/7 09:56:43 [79534] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:56:43 [79534] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:56:43 [79534] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 09:56:43 [79534] - [32minfo[39m: Enabling 'trust proxy'
+14/7 09:56:43 [79534] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 09:58:24 [79534] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:58:24 [79534] - [32minfo[39m: [app] Database connection closed.
+14/7 09:58:24 [79534] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:58:24 [79534] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79534) has exited (code: 0, signal: null)
+14/7 09:58:25 [79566] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:58:25 [79566] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:58:25 [79566] - [31merror[39m:  ReferenceError: sassMiddleware is not defined
+    at setupExpressApp (/Volumes/Data/huuminh-dl/src/server.js:125:13)
+    at /Volumes/Data/huuminh-dl/src/server.js:51:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+    at Object.module.exports.listen (/Volumes/Data/huuminh-dl/src/server.js:49:11)
+    at /Volumes/Data/huuminh-dl/src/start.js:43:23
+14/7 09:58:25 [79566] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:58:25 [79566] - [32minfo[39m: [app] Database connection closed.
+14/7 09:58:25 [79566] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:58:25 [79566] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79566) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 09:58:25 [79569] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:58:26 [79569] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:58:26 [79569] - [31merror[39m:  ReferenceError: sassMiddleware is not defined
+    at setupExpressApp (/Volumes/Data/huuminh-dl/src/server.js:125:13)
+    at /Volumes/Data/huuminh-dl/src/server.js:51:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+    at Object.module.exports.listen (/Volumes/Data/huuminh-dl/src/server.js:49:11)
+    at /Volumes/Data/huuminh-dl/src/start.js:43:23
+14/7 09:58:26 [79569] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:58:26 [79569] - [32minfo[39m: [app] Database connection closed.
+14/7 09:58:26 [79569] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:58:26 [79569] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79569) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 09:58:26 [79570] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:58:27 [79570] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:58:27 [79570] - [31merror[39m:  ReferenceError: sassMiddleware is not defined
+    at setupExpressApp (/Volumes/Data/huuminh-dl/src/server.js:125:13)
+    at /Volumes/Data/huuminh-dl/src/server.js:51:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+    at Object.module.exports.listen (/Volumes/Data/huuminh-dl/src/server.js:49:11)
+    at /Volumes/Data/huuminh-dl/src/start.js:43:23
+14/7 09:58:27 [79570] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:58:27 [79570] - [32minfo[39m: [app] Database connection closed.
+14/7 09:58:27 [79570] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:58:27 [79570] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79570) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 09:58:27 [79571] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 09:58:27 [79571] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 09:58:27 [79571] - [31merror[39m:  ReferenceError: sassMiddleware is not defined
+    at setupExpressApp (/Volumes/Data/huuminh-dl/src/server.js:125:13)
+    at /Volumes/Data/huuminh-dl/src/server.js:51:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+    at Object.module.exports.listen (/Volumes/Data/huuminh-dl/src/server.js:49:11)
+    at /Volumes/Data/huuminh-dl/src/start.js:43:23
+14/7 09:58:27 [79571] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 09:58:27 [79571] - [32minfo[39m: [app] Database connection closed.
+14/7 09:58:27 [79571] - [32minfo[39m: [app] Web server closed to connections.
+14/7 09:58:27 [79571] - [32minfo[39m: [app] Shutdown complete.
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:00:19 [79607] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:00:19 [79607] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:00:19 [79607] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:00:19 [79607] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:00:19 [79607] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:00:21 [79607] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:00:21 [79607] - [32minfo[39m: [app] Database connection closed.
+14/7 10:00:21 [79607] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:00:21 [79607] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (79607) has exited (code: 0, signal: null)
+14/7 10:00:22 [79611] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:00:22 [79611] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:00:22 [79611] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:00:22 [79611] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:00:22 [79611] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:01:18 [79611] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:01:18 [79611] - [32minfo[39m: [app] Database connection closed.
+14/7 10:01:18 [79611] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:01:18 [79611] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79611) has exited (code: 0, signal: null)
+14/7 10:01:18 [79666] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:01:18 [79666] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:01:19 [79666] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:01:19 [79666] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:01:19 [79666] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:02:47 [79666] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:02:47 [79666] - [32minfo[39m: [app] Database connection closed.
+14/7 10:02:47 [79666] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:02:47 [79666] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79666) has exited (code: 0, signal: null)
+14/7 10:02:47 [79682] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:02:48 [79682] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:02:48 [79682] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:02:48 [79682] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:02:48 [79682] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:03:05 [79682] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:03:05 [79682] - [32minfo[39m: [app] Database connection closed.
+14/7 10:03:05 [79682] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:03:05 [79682] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79682) has exited (code: 0, signal: null)
+14/7 10:03:05 [79704] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:03:06 [79704] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:03:06 [79704] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:03:06 [79704] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:03:06 [79704] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:03:08 [79704] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:03:08 [79704] - [32minfo[39m: [app] Database connection closed.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:03:08 [79704] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:03:08 [79704] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79704) has exited (code: 0, signal: null)
+14/7 10:03:08 [79707] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:03:09 [79707] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:03:09 [79707] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:03:09 [79707] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:03:09 [79707] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:04:22 [79707] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:04:22 [79707] - [32minfo[39m: [app] Database connection closed.
+14/7 10:04:22 [79707] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:04:22 [79707] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79707) has exited (code: 0, signal: null)
+14/7 10:04:23 [79738] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:04:23 [79738] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:04:23 [79738] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:04:23 [79738] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:04:23 [79738] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:04:38 [79738] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:04:38 [79738] - [32minfo[39m: [app] Database connection closed.
+14/7 10:04:38 [79738] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:04:38 [79738] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79738) has exited (code: 0, signal: null)
+14/7 10:04:38 [79747] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:04:38 [79747] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:04:38 [79747] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:04:38 [79747] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:04:38 [79747] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:05:36 [79747] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:05:36 [79747] - [32minfo[39m: [app] Database connection closed.
+14/7 10:05:36 [79747] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:05:36 [79747] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79747) has exited (code: 0, signal: null)
+14/7 10:05:37 [79761] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:05:37 [79761] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:05:37 [79761] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:05:37 [79761] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:05:37 [79761] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:05:37 [79761] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:05:37 [79761] - [32minfo[39m: [app] Database connection closed.
+14/7 10:05:37 [79761] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:05:37 [79761] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79761) has exited (code: 0, signal: null)
+14/7 10:05:38 [79764] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:05:38 [79764] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:05:38 [79764] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:05:38 [79764] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:05:38 [79764] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:06:56 [79764] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:06:56 [79764] - [32minfo[39m: [app] Database connection closed.
+14/7 10:06:56 [79764] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+14/7 10:06:56 [79764] - [32minfo[39m: [app] Shutdown complete.
+
+[cluster] Child Process (79764) has exited (code: 0, signal: null)
+14/7 10:06:56 [79781] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:06:56 [79781] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:06:56 [79781] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:06:56 [79781] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:06:56 [79781] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:06:57 [79781] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:06:57 [79781] - [32minfo[39m: [app] Database connection closed.
+14/7 10:06:57 [79781] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:06:57 [79781] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79781) has exited (code: 0, signal: null)
+14/7 10:06:57 [79784] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:06:58 [79784] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:06:58 [79784] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:06:58 [79784] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:06:58 [79784] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:07:44 [79784] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:07:44 [79784] - [32minfo[39m: [app] Database connection closed.
+14/7 10:07:44 [79784] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:07:44 [79784] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79784) has exited (code: 0, signal: null)
+14/7 10:07:44 [79795] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:07:45 [79795] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:07:45 [79795] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:07:45 [79795] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:07:45 [79795] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:07:55 [79795] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:07:55 [79795] - [32minfo[39m: [app] Database connection closed.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:07:55 [79795] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:07:55 [79795] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79795) has exited (code: 0, signal: null)
+14/7 10:07:55 [79800] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:07:56 [79800] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:07:56 [79800] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:07:56 [79800] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:07:56 [79800] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:08:10 [79800] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+14/7 10:08:10 [79800] - [32minfo[39m: [app] Database connection closed.
+
+14/7 10:08:10 [79800] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:08:10 [79800] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79800) has exited (code: 0, signal: null)
+14/7 10:08:11 [79807] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:08:11 [79807] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:08:11 [79807] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:08:11 [79807] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:08:11 [79807] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:08:24 [79807] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:08:24 [79807] - [32minfo[39m: [app] Database connection closed.
+14/7 10:08:24 [79807] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:08:24 [79807] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (79807) has exited (code: 0, signal: null)
+14/7 10:08:24 [79818] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:08:25 [79818] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:08:25 [79818] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:08:25 [79818] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:08:25 [79818] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:12:10 [79818] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:12:10 [79818] - [32minfo[39m: [app] Database connection closed.
+14/7 10:12:10 [79818] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:12:10 [79818] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79818) has exited (code: 0, signal: null)
+14/7 10:12:11 [79895] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:12:11 [79895] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:12:11 [79895] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:12:11 [79895] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:12:11 [79895] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:13:08 [79895] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:13:08 [79895] - [32minfo[39m: [app] Database connection closed.
+14/7 10:13:08 [79895] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:13:08 [79895] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79895) has exited (code: 0, signal: null)
+14/7 10:13:08 [79905] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:13:09 [79905] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:13:09 [79905] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:13:09 [79905] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:13:09 [79905] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:13:38 [79905] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:13:38 [79905] - [32minfo[39m: [app] Database connection closed.
+14/7 10:13:38 [79905] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:13:38 [79905] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79905) has exited (code: 0, signal: null)
+14/7 10:13:38 [79916] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:13:38 [79916] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:13:39 [79916] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:13:39 [79916] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:13:39 [79916] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:13:50 [79916] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:13:50 [79916] - [32minfo[39m: [app] Database connection closed.
+14/7 10:13:50 [79916] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:13:50 [79916] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79916) has exited (code: 0, signal: null)
+14/7 10:13:50 [79926] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:13:50 [79926] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:13:50 [79926] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:13:50 [79926] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:13:50 [79926] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:14:04 [79926] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:14:04 [79926] - [32minfo[39m: [app] Database connection closed.
+14/7 10:14:04 [79926] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:14:04 [79926] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79926) has exited (code: 0, signal: null)
+14/7 10:14:04 [79948] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:14:04 [79948] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:14:04 [79948] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:14:04 [79948] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:14:04 [79948] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:14:26 [79948] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:14:26 [79948] - [32minfo[39m: [app] Database connection closed.
+14/7 10:14:26 [79948] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:14:26 [79948] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79948) has exited (code: 0, signal: null)
+14/7 10:14:26 [79954] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:14:26 [79954] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:14:26 [79954] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:14:26 [79954] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:14:26 [79954] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:15:56 [79954] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:15:56 [79954] - [32minfo[39m: [app] Database connection closed.
+14/7 10:15:56 [79954] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:15:56 [79954] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79954) has exited (code: 0, signal: null)
+14/7 10:15:56 [79973] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:15:56 [79973] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:15:56 [79973] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:15:56 [79973] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:15:56 [79973] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:16:02 [79973] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:16:02 [79973] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:02 [79973] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:02 [79973] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79973) has exited (code: 0, signal: null)
+14/7 10:16:03 [79977] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:16:03 [79977] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:16:03 [79977] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:16:03 [79977] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:16:03 [79977] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:16:14 [79977] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:16:14 [79977] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:14 [79977] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:14 [79977] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79977) has exited (code: 0, signal: null)
+14/7 10:16:14 [79982] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:16:14 [79982] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:16:14 [79982] - [31merror[39m:  Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:11:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 10:16:14 [79982] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:16:14 [79982] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:14 [79982] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:14 [79982] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79982) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 10:16:15 [79984] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:16:15 [79984] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:16:15 [79984] - [31merror[39m:  Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:11:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 10:16:15 [79984] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:16:15 [79984] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:15 [79984] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:15 [79984] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79984) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 10:16:15 [79985] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:16:16 [79985] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:16:16 [79985] - [31merror[39m:  Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:11:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 10:16:16 [79985] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:16:16 [79985] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:16 [79985] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:16 [79985] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (79985) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 10:16:16 [79986] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:16:17 [79986] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:16:17 [79986] - [31merror[39m:  Error: Route.get() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as get] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:11:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 10:16:17 [79986] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:16:17 [79986] - [32minfo[39m: [app] Database connection closed.
+14/7 10:16:17 [79986] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:16:17 [79986] - [32minfo[39m: [app] Shutdown complete.
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:18:16 [80037] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:18:16 [80037] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:18:16 [80037] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:18:16 [80037] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:18:16 [80037] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:22:32 [80037] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:22:32 [80037] - [32minfo[39m: [app] Database connection closed.
+14/7 10:22:32 [80037] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:22:32 [80037] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80037) has exited (code: 0, signal: null)
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:22:35 [80136] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:22:36 [80136] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:22:36 [80136] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:22:36 [80136] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:22:36 [80136] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:22:42 [80136] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:22:42 [80136] - [32minfo[39m: [app] Database connection closed.
+14/7 10:22:42 [80136] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:22:42 [80136] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (80136) has exited (code: 0, signal: null)
+14/7 10:22:42 [80141] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:22:43 [80141] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:22:43 [80141] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:22:43 [80141] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:22:43 [80141] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:28:10 [80141] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:28:10 [80141] - [32minfo[39m: [app] Database connection closed.
+14/7 10:28:10 [80141] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:28:10 [80141] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80141) has exited (code: 0, signal: null)
+14/7 10:28:10 [80202] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:28:11 [80202] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:28:11 [80202] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:28:11 [80202] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:28:11 [80202] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:28:45 [80202] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:28:45 [80202] - [32minfo[39m: [app] Database connection closed.
+14/7 10:28:45 [80202] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:28:45 [80202] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80202) has exited (code: 0, signal: null)
+14/7 10:28:45 [80221] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:28:46 [80221] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:28:46 [80221] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:28:46 [80221] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:28:46 [80221] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:28:58 [80221] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:28:58 [80221] - [32minfo[39m: [app] Database connection closed.
+14/7 10:28:58 [80221] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:28:58 [80221] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80221) has exited (code: 0, signal: null)
+14/7 10:28:58 [80225] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:28:59 [80225] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:28:59 [80225] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:28:59 [80225] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:28:59 [80225] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:31:12 [80225] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:31:12 [80225] - [32minfo[39m: [app] Database connection closed.
+14/7 10:31:12 [80225] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+14/7 10:31:12 [80225] - [32minfo[39m: [app] Shutdown complete.
+
+[cluster] Child Process (80225) has exited (code: 0, signal: null)
+14/7 10:31:13 [80294] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:31:13 [80294] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:31:13 [80294] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:31:13 [80294] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:31:13 [80294] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:31:27 [80294] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:31:27 [80294] - [32minfo[39m: [app] Database connection closed.
+14/7 10:31:27 [80294] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+14/7 10:31:27 [80294] - [32minfo[39m: [app] Shutdown complete.
+
+[cluster] Child Process (80294) has exited (code: 0, signal: null)
+14/7 10:31:28 [80300] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:31:28 [80300] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:31:28 [80300] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:31:28 [80300] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:31:28 [80300] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:32:32 [80300] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:32:32 [80300] - [32minfo[39m: [app] Database connection closed.
+14/7 10:32:32 [80300] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:32:32 [80300] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80300) has exited (code: 0, signal: null)
+14/7 10:32:32 [80316] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:32:33 [80316] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:32:33 [80316] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:32:33 [80316] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:32:33 [80316] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:32:43 [80316] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:32:43 [80316] - [32minfo[39m: [app] Database connection closed.
+14/7 10:32:43 [80316] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:32:43 [80316] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80316) has exited (code: 0, signal: null)
+14/7 10:32:43 [80321] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:32:44 [80321] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:32:44 [80321] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:32:44 [80321] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:32:44 [80321] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:34:32 [80321] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:34:32 [80321] - [32minfo[39m: [app] Database connection closed.
+14/7 10:34:32 [80321] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:34:32 [80321] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80321) has exited (code: 0, signal: null)
+14/7 10:34:32 [80343] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:34:32 [80343] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:34:32 [80343] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:34:32 [80343] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:34:32 [80343] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:34:48 [80343] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:34:48 [80343] - [32minfo[39m: [app] Database connection closed.
+14/7 10:34:48 [80343] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:34:48 [80343] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (80343) has exited (code: 0, signal: null)
+14/7 10:34:48 [80349] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:34:49 [80349] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:34:49 [80349] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:34:49 [80349] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:34:49 [80349] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:39:31 [80349] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:39:31 [80349] - [32minfo[39m: [app] Database connection closed.
+14/7 10:39:31 [80349] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:39:31 [80349] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80349) has exited (code: 0, signal: null)
+14/7 10:39:31 [80427] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:39:31 [80427] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:39:32 [80427] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:39:32 [80427] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:39:32 [80427] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:39:59 [80427] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:39:59 [80427] - [32minfo[39m: [app] Database connection closed.
+14/7 10:39:59 [80427] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:39:59 [80427] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80427) has exited (code: 0, signal: null)
+14/7 10:39:59 [80437] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:40:00 [80437] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:40:00 [80437] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:40:00 [80437] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:40:00 [80437] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:41:20 [80437] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:41:20 [80437] - [32minfo[39m: [app] Database connection closed.
+14/7 10:41:20 [80437] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:41:20 [80437] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80437) has exited (code: 0, signal: null)
+14/7 10:41:20 [80477] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:41:21 [80477] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:41:21 [80477] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:41:21 [80477] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:41:21 [80477] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:41:21 [80477] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:41:21 [80477] - [32minfo[39m: [app] Database connection closed.
+14/7 10:41:21 [80477] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:41:21 [80477] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80477) has exited (code: 0, signal: null)
+14/7 10:41:21 [80480] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:41:22 [80480] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:41:22 [80480] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:41:22 [80480] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:41:22 [80480] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:42:00 [80480] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:42:00 [80480] - [32minfo[39m: [app] Database connection closed.
+14/7 10:42:00 [80480] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:42:00 [80480] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (80480) has exited (code: 0, signal: null)
+14/7 10:42:01 [80492] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:42:01 [80492] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:42:01 [80492] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:42:01 [80492] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:42:01 [80492] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:43:18 [80492] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:43:18 [80492] - [32minfo[39m: [app] Database connection closed.
+14/7 10:43:18 [80492] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:43:18 [80492] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80492) has exited (code: 0, signal: null)
+14/7 10:43:18 [80504] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:43:18 [80504] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:43:18 [80504] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:43:18 [80504] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:43:18 [80504] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:47:36 [80504] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:47:36 [80504] - [32minfo[39m: [app] Database connection closed.
+14/7 10:47:36 [80504] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:47:36 [80504] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80504) has exited (code: 0, signal: null)
+14/7 10:47:36 [80582] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:47:37 [80582] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:47:37 [80582] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:47:37 [80582] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:47:37 [80582] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:48:24 [80582] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:48:24 [80582] - [32minfo[39m: [app] Database connection closed.
+14/7 10:48:24 [80582] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:48:24 [80582] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80582) has exited (code: 0, signal: null)
+14/7 10:48:24 [80591] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:48:25 [80591] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:48:25 [80591] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:48:25 [80591] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:48:25 [80591] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:49:42 [80591] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:49:42 [80591] - [32minfo[39m: [app] Database connection closed.
+14/7 10:49:42 [80591] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:49:42 [80591] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80591) has exited (code: 0, signal: null)
+14/7 10:49:42 [80612] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:49:43 [80612] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:49:43 [80612] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:49:43 [80612] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:49:43 [80612] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:50:32 [80612] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:50:32 [80612] - [32minfo[39m: [app] Database connection closed.
+14/7 10:50:32 [80612] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:50:32 [80612] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80612) has exited (code: 0, signal: null)
+14/7 10:50:33 [80623] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:50:33 [80623] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:50:33 [80623] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:50:33 [80623] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:50:33 [80623] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:52:18 [80623] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:52:18 [80623] - [32minfo[39m: [app] Database connection closed.
+14/7 10:52:18 [80623] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:52:18 [80623] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80623) has exited (code: 0, signal: null)
+14/7 10:52:18 [80665] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:52:19 [80665] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:52:19 [80665] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:52:19 [80665] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:52:19 [80665] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:53:16 [80665] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:53:16 [80665] - [32minfo[39m: [app] Database connection closed.
+14/7 10:53:16 [80665] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:53:16 [80665] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80665) has exited (code: 0, signal: null)
+14/7 10:53:16 [80676] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:53:17 [80676] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:53:17 [80676] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:53:17 [80676] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:53:17 [80676] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:53:24 [80676] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:53:24 [80676] - [32minfo[39m: [app] Database connection closed.
+14/7 10:53:24 [80676] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:53:24 [80676] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80676) has exited (code: 0, signal: null)
+14/7 10:53:24 [80683] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:53:25 [80683] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:53:25 [80683] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:53:25 [80683] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:53:25 [80683] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:54:00 [80683] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 10:54:00 [80683] - [32minfo[39m: [app] Database connection closed.
+14/7 10:54:00 [80683] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:54:00 [80683] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80683) has exited (code: 0, signal: null)
+14/7 10:54:00 [80690] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:54:00 [80690] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:54:00 [80690] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:54:01 [80690] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:54:01 [80690] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+14/7 10:55:18 [80690] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+
+14/7 10:55:18 [80690] - [32minfo[39m: [app] Database connection closed.
+14/7 10:55:18 [80690] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:55:18 [80690] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80690) has exited (code: 0, signal: null)
+14/7 10:55:18 [80715] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:55:19 [80715] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:55:19 [80715] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:55:19 [80715] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:55:19 [80715] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 10:55:28 [80715] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 10:55:28 [80715] - [32minfo[39m: [app] Database connection closed.
+14/7 10:55:28 [80715] - [32minfo[39m: [app] Web server closed to connections.
+14/7 10:55:28 [80715] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80715) has exited (code: 0, signal: null)
+14/7 10:55:28 [80720] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 10:55:29 [80720] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 10:55:29 [80720] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 10:55:29 [80720] - [32minfo[39m: Enabling 'trust proxy'
+14/7 10:55:29 [80720] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:01:44 [80720] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:01:44 [80720] - [32minfo[39m: [app] Database connection closed.
+14/7 11:01:44 [80720] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:01:44 [80720] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80720) has exited (code: 0, signal: null)
+14/7 11:01:45 [80796] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:01:45 [80796] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:01:45 [80796] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:01:45 [80796] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:01:45 [80796] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:02:15 [80796] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:02:15 [80796] - [32minfo[39m: [app] Database connection closed.
+14/7 11:02:15 [80796] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:02:15 [80796] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80796) has exited (code: 0, signal: null)
+14/7 11:02:16 [80803] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:02:16 [80803] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:02:16 [80803] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:02:16 [80803] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:02:16 [80803] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:02:51 [80803] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:02:51 [80803] - [32minfo[39m: [app] Database connection closed.
+14/7 11:02:51 [80803] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:02:51 [80803] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80803) has exited (code: 0, signal: null)
+14/7 11:02:51 [80819] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:02:51 [80819] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:02:52 [80819] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:02:52 [80819] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:02:52 [80819] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:04:04 [80819] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:04:04 [80819] - [32minfo[39m: [app] Database connection closed.
+
+14/7 11:04:04 [80819] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:04:04 [80819] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80819) has exited (code: 0, signal: null)
+14/7 11:04:05 [80847] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:04:05 [80847] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:04:05 [80847] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:04:05 [80847] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:04:05 [80847] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:06:55 [80847] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:06:55 [80847] - [32minfo[39m: [app] Database connection closed.
+14/7 11:06:55 [80847] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:06:55 [80847] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80847) has exited (code: 0, signal: null)
+14/7 11:06:55 [80879] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:06:56 [80879] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:06:56 [80879] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:06:56 [80879] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:06:56 [80879] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:08:03 [80879] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:08:03 [80879] - [32minfo[39m: [app] Database connection closed.
+14/7 11:08:03 [80879] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:08:03 [80879] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80879) has exited (code: 0, signal: null)
+14/7 11:08:03 [80895] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:08:04 [80895] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:08:04 [80895] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:08:04 [80895] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:08:04 [80895] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:08:44 [80895] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:08:44 [80895] - [32minfo[39m: [app] Database connection closed.
+14/7 11:08:44 [80895] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:08:44 [80895] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80895) has exited (code: 0, signal: null)
+14/7 11:08:44 [80916] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:08:45 [80916] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:08:45 [80916] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:08:45 [80916] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:08:45 [80916] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:09:16 [80916] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:09:16 [80916] - [32minfo[39m: [app] Database connection closed.
+14/7 11:09:16 [80916] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:09:16 [80916] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80916) has exited (code: 0, signal: null)
+14/7 11:09:16 [80924] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:09:17 [80924] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:09:17 [80924] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:09:17 [80924] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:09:17 [80924] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:09:57 [80924] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:09:57 [80924] - [32minfo[39m: [app] Database connection closed.
+14/7 11:09:57 [80924] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:09:57 [80924] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80924) has exited (code: 0, signal: null)
+14/7 11:09:57 [80933] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:09:57 [80933] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:09:57 [80933] - [31merror[39m:  Error: Route.put() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:12:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 11:09:57 [80933] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:09:57 [80933] - [32minfo[39m: [app] Database connection closed.
+14/7 11:09:57 [80933] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:09:57 [80933] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80933) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:09:58 [80935] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:09:58 [80935] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:09:58 [80935] - [31merror[39m:  Error: Route.put() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:12:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 11:09:58 [80935] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:09:58 [80935] - [32minfo[39m: [app] Database connection closed.
+14/7 11:09:58 [80935] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:09:58 [80935] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80935) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:09:58 [80936] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:09:59 [80936] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:09:59 [80936] - [31merror[39m:  Error: Route.put() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:12:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 11:09:59 [80936] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:09:59 [80936] - [32minfo[39m: [app] Database connection closed.
+14/7 11:09:59 [80936] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:09:59 [80936] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80936) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:09:59 [80937] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:09:59 [80937] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:10:00 [80937] - [31merror[39m:  Error: Route.put() requires callback functions but got a [object Undefined]
+    at Route.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:202:15)
+    at Function.app.(anonymous function) [as put] (/Volumes/Data/huuminh-dl/node_modules/express/lib/application.js:482:19)
+    at module.exports (/Volumes/Data/huuminh-dl/src/routes.js:12:9)
+    at /Volumes/Data/huuminh-dl/src/server.js:74:13
+    at fn (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:746:34)
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:1213:16
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:166:37
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:706:43
+    at /Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:167:37
+    at Object.async.waterfall (/Volumes/Data/huuminh-dl/node_modules/async/lib/async.js:710:44)
+14/7 11:10:00 [80937] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:10:00 [80937] - [32minfo[39m: [app] Database connection closed.
+14/7 11:10:00 [80937] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:10:00 [80937] - [32minfo[39m: [app] Shutdown complete.
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:12:09 [80973] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:12:09 [80973] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:12:09 [80973] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:12:09 [80973] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:12:09 [80973] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:12:12 [80973] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:12:12 [80973] - [32minfo[39m: [app] Database connection closed.
+14/7 11:12:12 [80973] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:12:12 [80973] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (80973) has exited (code: 0, signal: null)
+14/7 11:12:12 [80978] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:12:12 [80978] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:12:12 [80978] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:12:12 [80978] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:12:12 [80978] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:13:09 [80978] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:13:09 [80978] - [32minfo[39m: [app] Database connection closed.
+14/7 11:13:09 [80978] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:13:09 [80978] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80978) has exited (code: 0, signal: null)
+14/7 11:13:09 [80987] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:13:09 [80987] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:13:09 [80987] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:13:09 [80987] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:13:09 [80987] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:13:10 [80987] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:13:10 [80987] - [32minfo[39m: [app] Database connection closed.
+14/7 11:13:10 [80987] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:13:10 [80987] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80987) has exited (code: 0, signal: null)
+14/7 11:13:10 [80990] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:13:10 [80990] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:13:10 [80990] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:13:10 [80990] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:13:10 [80990] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:13:12 [80990] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:13:12 [80990] - [32minfo[39m: [app] Database connection closed.
+14/7 11:13:12 [80990] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:13:12 [80990] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (80990) has exited (code: 0, signal: null)
+14/7 11:13:12 [80994] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:13:12 [80994] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:13:12 [80994] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:13:12 [80994] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:13:12 [80994] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:13:33 [80994] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:13:33 [80994] - [32minfo[39m: [app] Database connection closed.
+14/7 11:13:33 [80994] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:13:33 [80994] - [32minfo[39m: [app] Shutdown complete.
+
+[cluster] Child Process (80994) has exited (code: 0, signal: null)
+14/7 11:13:33 [81005] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:13:33 [81005] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:13:33 [81005] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:13:33 [81005] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:13:33 [81005] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:13:55 [81005] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:13:55 [81005] - [32minfo[39m: [app] Database connection closed.
+14/7 11:13:55 [81005] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:13:55 [81005] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81005) has exited (code: 0, signal: null)
+14/7 11:13:55 [81013] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:13:56 [81013] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:13:56 [81013] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:13:56 [81013] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:13:56 [81013] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:14:18 [81013] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:14:18 [81013] - [32minfo[39m: [app] Database connection closed.
+14/7 11:14:18 [81013] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:14:18 [81013] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81013) has exited (code: 0, signal: null)
+14/7 11:14:18 [81031] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:14:18 [81031] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:14:18 [81031] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:14:18 [81031] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:14:18 [81031] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:15:12 [81031] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:15:12 [81031] - [32minfo[39m: [app] Database connection closed.
+14/7 11:15:12 [81031] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:15:12 [81031] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81031) has exited (code: 0, signal: null)
+14/7 11:15:12 [81043] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:15:12 [81043] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:15:12 [81043] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:15:12 [81043] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:15:12 [81043] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:15:48 [81043] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:15:48 [81043] - [32minfo[39m: [app] Database connection closed.
+
+14/7 11:15:48 [81043] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:15:48 [81043] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81043) has exited (code: 0, signal: null)
+14/7 11:15:48 [81052] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:15:49 [81052] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:15:49 [81052] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:15:49 [81052] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:15:49 [81052] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:15:56 [81052] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:15:56 [81052] - [32minfo[39m: [app] Database connection closed.
+14/7 11:15:56 [81052] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:15:56 [81052] - [32minfo[39m: [app] Shutdown complete.
+
+[cluster] Child Process (81052) has exited (code: 0, signal: null)
+14/7 11:15:56 [81057] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:15:56 [81057] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:15:56 [81057] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:15:56 [81057] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:15:56 [81057] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:16:49 [81057] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:16:49 [81057] - [32minfo[39m: [app] Database connection closed.
+14/7 11:16:49 [81057] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:16:49 [81057] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81057) has exited (code: 0, signal: null)
+14/7 11:16:49 [81070] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:16:50 [81070] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:16:50 [81070] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:16:50 [81070] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:16:50 [81070] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:17:00 [81070] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:17:00 [81070] - [32minfo[39m: [app] Database connection closed.
+14/7 11:17:00 [81070] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:17:00 [81070] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81070) has exited (code: 0, signal: null)
+14/7 11:17:00 [81075] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:17:00 [81075] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:17:00 [81075] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:17:00 [81075] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:17:00 [81075] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:17:35 [81075] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:17:35 [81075] - [32minfo[39m: [app] Database connection closed.
+14/7 11:17:35 [81075] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:17:35 [81075] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81075) has exited (code: 0, signal: null)
+14/7 11:17:35 [81083] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:17:36 [81083] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:17:36 [81083] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:17:36 [81083] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:17:36 [81083] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:18:00 [81083] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:18:00 [81083] - [32minfo[39m: [app] Database connection closed.
+14/7 11:18:00 [81083] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:18:00 [81083] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81083) has exited (code: 0, signal: null)
+14/7 11:18:01 [81088] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:18:01 [81088] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:18:01 [81088] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:18:01 [81088] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:18:01 [81088] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:18:03 [81088] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:18:03 [81088] - [32minfo[39m: [app] Database connection closed.
+14/7 11:18:03 [81088] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:18:03 [81088] - [32minfo[39m: [app] Shutdown complete.
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (81088) has exited (code: 0, signal: null)
+14/7 11:18:03 [81092] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:18:04 [81092] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:18:04 [81092] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:18:04 [81092] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:18:04 [81092] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:18:43 [81092] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:18:43 [81092] - [32minfo[39m: [app] Database connection closed.
+14/7 11:18:43 [81092] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:18:43 [81092] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81092) has exited (code: 0, signal: null)
+14/7 11:18:44 [81100] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:18:44 [81100] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:18:44 [81100] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:18:44 [81100] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:18:44 [81100] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:18:50 [81100] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:18:50 [81100] - [32minfo[39m: [app] Database connection closed.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:18:50 [81100] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:18:50 [81100] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81100) has exited (code: 0, signal: null)
+14/7 11:18:50 [81108] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:18:50 [81108] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:18:50 [81108] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:18:50 [81108] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:18:50 [81108] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:18:54 [81108] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:18:54 [81108] - [32minfo[39m: [app] Database connection closed.
+14/7 11:18:54 [81108] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:18:54 [81108] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81108) has exited (code: 0, signal: null)
+14/7 11:18:54 [81113] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:18:54 [81113] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:18:54 [81113] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:18:54 [81113] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:18:54 [81113] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:02 [81113] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:02 [81113] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:02 [81113] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:02 [81113] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81113) has exited (code: 0, signal: null)
+14/7 11:19:02 [81117] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:02 [81117] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:02 [81117] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:02 [81117] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:02 [81117] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:10 [81117] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:10 [81117] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:10 [81117] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:10 [81117] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81117) has exited (code: 0, signal: null)
+14/7 11:19:11 [81122] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:11 [81122] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:11 [81122] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:11 [81122] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:11 [81122] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:14 [81122] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:14 [81122] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:14 [81122] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:14 [81122] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81122) has exited (code: 0, signal: null)
+14/7 11:19:14 [81127] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:15 [81127] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:15 [81127] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:15 [81127] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:15 [81127] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:22 [81127] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:22 [81127] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:22 [81127] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:22 [81127] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81127) has exited (code: 0, signal: null)
+14/7 11:19:22 [81134] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:22 [81134] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:22 [81134] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:22 [81134] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:22 [81134] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:26 [81134] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:26 [81134] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:26 [81134] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:26 [81134] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81134) has exited (code: 0, signal: null)
+14/7 11:19:26 [81149] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:26 [81149] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:26 [81149] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:26 [81149] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:26 [81149] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:32 [81149] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:19:32 [81149] - [32minfo[39m: [app] Database connection closed.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:32 [81149] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:32 [81149] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81149) has exited (code: 0, signal: null)
+14/7 11:19:32 [81153] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:33 [81153] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:33 [81153] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:33 [81153] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:33 [81153] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:19:34 [81153] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:19:34 [81153] - [32minfo[39m: [app] Database connection closed.
+14/7 11:19:34 [81153] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:19:34 [81153] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81153) has exited (code: 0, signal: null)
+14/7 11:19:34 [81157] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:19:35 [81157] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:19:35 [81157] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:19:35 [81157] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:19:35 [81157] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:20:29 [81157] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:20:29 [81157] - [32minfo[39m: [app] Database connection closed.
+14/7 11:20:29 [81157] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:20:29 [81157] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81157) has exited (code: 0, signal: null)
+14/7 11:20:29 [81167] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:20:30 [81167] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:20:30 [81167] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:20:30 [81167] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:20:30 [81167] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:21:03 [81167] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:21:03 [81167] - [32minfo[39m: [app] Database connection closed.
+14/7 11:21:03 [81167] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:21:03 [81167] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81167) has exited (code: 0, signal: null)
+14/7 11:21:04 [81176] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:21:04 [81176] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:21:04 [81176] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:21:04 [81176] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:21:04 [81176] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:22:12 [81176] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:22:12 [81176] - [32minfo[39m: [app] Database connection closed.
+14/7 11:22:12 [81176] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:22:12 [81176] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81176) has exited (code: 0, signal: null)
+14/7 11:22:12 [81204] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:22:13 [81204] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:22:13 [81204] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:22:13 [81204] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:22:13 [81204] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:22:40 [81204] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:22:40 [81204] - [32minfo[39m: [app] Database connection closed.
+14/7 11:22:40 [81204] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:22:40 [81204] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81204) has exited (code: 0, signal: null)
+14/7 11:22:40 [81215] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:22:40 [81215] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:22:40 [81215] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:22:40 [81215] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:22:40 [81215] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:23:02 [81215] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:23:02 [81215] - [32minfo[39m: [app] Database connection closed.
+14/7 11:23:02 [81215] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:23:02 [81215] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81215) has exited (code: 0, signal: null)
+14/7 11:23:02 [81222] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:23:03 [81222] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:23:03 [81222] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:23:03 [81222] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:23:03 [81222] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:23:27 [81222] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:23:27 [81222] - [32minfo[39m: [app] Database connection closed.
+
+14/7 11:23:27 [81222] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:23:27 [81222] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81222) has exited (code: 0, signal: null)
+14/7 11:23:27 [81228] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:23:28 [81228] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:23:28 [81228] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:23:28 [81228] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:23:28 [81228] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:23:29 [81228] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:23:29 [81228] - [32minfo[39m: [app] Database connection closed.
+14/7 11:23:29 [81228] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:23:29 [81228] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81228) has exited (code: 0, signal: null)
+14/7 11:23:29 [81231] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:23:30 [81231] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:23:30 [81231] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:23:30 [81231] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:23:30 [81231] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:23:39 [81231] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:23:39 [81231] - [32minfo[39m: [app] Database connection closed.
+14/7 11:23:39 [81231] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:23:39 [81231] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81231) has exited (code: 0, signal: null)
+14/7 11:23:40 [81236] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:23:40 [81236] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:23:40 [81236] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:23:40 [81236] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:23:40 [81236] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:23:54 [81236] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+
+14/7 11:23:54 [81236] - [32minfo[39m: [app] Database connection closed.
+14/7 11:23:54 [81236] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:23:54 [81236] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81236) has exited (code: 0, signal: null)
+14/7 11:23:54 [81241] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:23:55 [81241] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:23:55 [81241] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:23:55 [81241] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:23:55 [81241] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:24:22 [81241] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:24:22 [81241] - [32minfo[39m: [app] Database connection closed.
+14/7 11:24:22 [81241] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:24:22 [81241] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81241) has exited (code: 0, signal: null)
+14/7 11:24:22 [81252] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:24:22 [81252] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:24:22 [81252] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:24:22 [81252] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:24:22 [81252] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:25:08 [81252] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:25:08 [81252] - [32minfo[39m: [app] Database connection closed.
+14/7 11:25:08 [81252] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:25:08 [81252] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81252) has exited (code: 0, signal: null)
+14/7 11:25:09 [81274] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:25:09 [81274] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:25:09 [81274] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:25:09 [81274] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:25:09 [81274] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:25:10 [81274] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:25:10 [81274] - [32minfo[39m: [app] Database connection closed.
+14/7 11:25:10 [81274] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:25:10 [81274] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81274) has exited (code: 0, signal: null)
+14/7 11:25:10 [81277] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:25:11 [81277] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:25:11 [81277] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:25:11 [81277] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:25:11 [81277] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:25:30 [81277] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:25:30 [81277] - [32minfo[39m: [app] Database connection closed.
+14/7 11:25:30 [81277] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:25:30 [81277] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81277) has exited (code: 0, signal: null)
+14/7 11:25:30 [81284] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:25:31 [81284] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:25:31 [81284] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:25:31 [81284] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:25:31 [81284] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:26:09 [81284] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:26:09 [81284] - [32minfo[39m: [app] Database connection closed.
+14/7 11:26:09 [81284] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:26:09 [81284] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81284) has exited (code: 0, signal: null)
+14/7 11:26:09 [81295] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:26:10 [81295] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:26:10 [81295] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:26:10 [81295] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:26:10 [81295] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:26:22 [81295] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:26:22 [81295] - [32minfo[39m: [app] Database connection closed.
+14/7 11:26:22 [81295] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:26:22 [81295] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81295) has exited (code: 0, signal: null)
+14/7 11:26:22 [81300] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:26:22 [81300] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:26:22 [81300] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:26:22 [81300] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:26:22 [81300] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:26:30 [81300] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:26:30 [81300] - [32minfo[39m: [app] Database connection closed.
+14/7 11:26:30 [81300] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:26:30 [81300] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81300) has exited (code: 0, signal: null)
+14/7 11:26:30 [81305] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:26:30 [81305] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:26:30 [81305] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:26:30 [81305] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:26:30 [81305] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:28:01 [81305] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:28:01 [81305] - [32minfo[39m: [app] Database connection closed.
+14/7 11:28:01 [81305] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:28:01 [81305] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81305) has exited (code: 0, signal: null)
+14/7 11:28:02 [81322] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:28:02 [81322] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:28:02 [81322] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:28:02 [81322] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:28:02 [81322] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:29:24 [81322] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:29:24 [81322] - [32minfo[39m: [app] Database connection closed.
+14/7 11:29:24 [81322] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:29:24 [81322] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81322) has exited (code: 0, signal: null)
+14/7 11:29:24 [81333] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:29:25 [81333] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:29:25 [81333] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:29:25 [81333] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:29:25 [81333] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:29:59 [81333] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:29:59 [81333] - [32minfo[39m: [app] Database connection closed.
+14/7 11:29:59 [81333] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:29:59 [81333] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81333) has exited (code: 0, signal: null)
+14/7 11:30:00 [81345] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:30:00 [81345] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:30:00 [81345] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:30:00 [81345] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:30:00 [81345] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:30:13 [81345] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:30:13 [81345] - [32minfo[39m: [app] Database connection closed.
+14/7 11:30:13 [81345] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:30:13 [81345] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81345) has exited (code: 0, signal: null)
+14/7 11:30:13 [81350] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:30:14 [81350] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:30:14 [81350] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:30:14 [81350] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:30:14 [81350] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:31:09 [81350] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:31:09 [81350] - [32minfo[39m: [app] Database connection closed.
+14/7 11:31:09 [81350] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:31:09 [81350] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81350) has exited (code: 0, signal: null)
+14/7 11:31:10 [81380] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:31:10 [81380] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:31:10 [81380] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:31:10 [81380] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:31:10 [81380] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:31:11 [81380] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:31:11 [81380] - [32minfo[39m: [app] Database connection closed.
+14/7 11:31:11 [81380] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:31:11 [81380] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81380) has exited (code: 0, signal: null)
+14/7 11:31:11 [81382] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:31:11 [81382] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:31:11 [81382] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:31:11 [81382] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:31:11 [81382] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:33:16 [81382] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:33:16 [81382] - [32minfo[39m: [app] Database connection closed.
+14/7 11:33:16 [81382] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:33:16 [81382] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81382) has exited (code: 0, signal: null)
+14/7 11:33:16 [81401] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:33:17 [81401] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:33:17 [81401] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:33:17 [81401] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:33:17 [81401] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:33:20 [81401] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:33:20 [81401] - [32minfo[39m: [app] Database connection closed.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:33:20 [81401] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:33:20 [81401] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81401) has exited (code: 0, signal: null)
+14/7 11:33:20 [81409] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:33:21 [81409] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:33:21 [81409] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:33:21 [81409] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:33:21 [81409] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:33:54 [81409] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:33:54 [81409] - [32minfo[39m: [app] Database connection closed.
+14/7 11:33:54 [81409] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:33:54 [81409] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81409) has exited (code: 0, signal: null)
+14/7 11:33:54 [81416] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:33:54 [81416] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:33:54 [81416] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:33:54 [81416] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:33:54 [81416] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:34:03 [81416] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:34:03 [81416] - [32minfo[39m: [app] Database connection closed.
+14/7 11:34:03 [81416] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:34:03 [81416] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81416) has exited (code: 0, signal: null)
+14/7 11:34:03 [81421] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:34:03 [81421] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:34:03 [81421] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:34:03 [81421] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:34:03 [81421] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:36:12 [81421] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:36:12 [81421] - [32minfo[39m: [app] Database connection closed.
+14/7 11:36:12 [81421] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:36:12 [81421] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81421) has exited (code: 0, signal: null)
+14/7 11:36:12 [81463] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:36:13 [81463] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:36:13 [81463] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:36:13 [81463] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:36:13 [81463] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:36:57 [81463] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+14/7 11:36:57 [81463] - [32minfo[39m: [app] Database connection closed.
+
+14/7 11:36:57 [81463] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:36:57 [81463] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81463) has exited (code: 0, signal: null)
+14/7 11:36:57 [81473] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:36:58 [81473] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:36:58 [81473] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:36:58 [81473] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:36:58 [81473] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:06 [81473] - [31merror[39m:  Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:170:12)
+    at done (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:967:10)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:526:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+    at Function.Waiter.done (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/async.js:68:12)
+    at renderTemplate (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:494:11)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:524:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+14/7 11:37:06 [81473] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:37:06 [81473] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:06 [81473] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:06 [81473] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81473) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:37:06 [81476] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:07 [81476] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:07 [81476] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:07 [81476] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:07 [81476] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:07 [81476] - [31merror[39m:  Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:170:12)
+    at done (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:967:10)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:526:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+    at Function.Waiter.done (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/async.js:68:12)
+    at renderTemplate (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:494:11)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:524:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+14/7 11:37:07 [81476] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:37:07 [81476] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:07 [81476] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:07 [81476] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81476) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:37:07 [81477] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:08 [81477] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:08 [81477] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:08 [81477] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:08 [81477] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:25 [81477] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:37:25 [81477] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:25 [81477] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:25 [81477] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81477) has exited (code: 0, signal: null)
+14/7 11:37:25 [81482] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:25 [81482] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:25 [81482] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:25 [81482] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:25 [81482] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+ReferenceError: callback is not defined
+    at Controllers.settings (/Volumes/Data/huuminh-dl/src/controllers/index.js:25:8)
+    at Layer.handle [as handle_request] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/layer.js:95:5)
+    at /Volumes/Data/huuminh-dl/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/index.js:335:12)
+    at next (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/index.js:275:10)
+    at Logger.expressLogger (/Volumes/Data/huuminh-dl/src/logger.js:136:9)
+    at Layer.handle [as handle_request] (/Volumes/Data/huuminh-dl/node_modules/express/lib/router/layer.js:95:5)
+14/7 11:37:38 [81482] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:37:38 [81482] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:38 [81482] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:38 [81482] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81482) has exited (code: 0, signal: null)
+14/7 11:37:38 [81487] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:39 [81487] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:39 [81487] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:39 [81487] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:39 [81487] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:40 [81487] - [31merror[39m:  Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:170:12)
+    at done (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:967:10)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:526:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+    at Function.Waiter.done (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/async.js:68:12)
+    at renderTemplate (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:494:11)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:524:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+14/7 11:37:40 [81487] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:37:40 [81487] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:40 [81487] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:40 [81487] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81487) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:37:40 [81489] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:41 [81489] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:41 [81489] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:41 [81489] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:41 [81489] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:41 [81489] - [31merror[39m:  Error: Can't set headers after they are sent.
+    at ServerResponse.setHeader (_http_outgoing.js:371:11)
+    at ServerResponse.header (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:730:10)
+    at ServerResponse.send (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:170:12)
+    at done (/Volumes/Data/huuminh-dl/node_modules/express/lib/response.js:967:10)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:526:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+    at Function.Waiter.done (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/async.js:68:12)
+    at renderTemplate (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:494:11)
+    at _stackRenderer (/Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:524:9)
+    at /Volumes/Data/huuminh-dl/node_modules/express-hbs/lib/hbs.js:503:7
+14/7 11:37:41 [81489] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:37:41 [81489] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:41 [81489] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:41 [81489] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81489) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+14/7 11:37:41 [81490] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:42 [81490] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:42 [81490] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:42 [81490] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:42 [81490] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:53 [81490] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+Clustering enabled: Spinning up 1 process(es).
+
+14/7 11:37:53 [81490] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:53 [81490] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:53 [81490] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81490) has exited (code: 0, signal: null)
+14/7 11:37:54 [81496] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+14/7 11:37:54 [81496] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+14/7 11:37:54 [81496] - [32minfo[39m: HuuMinh DL Script Ready
+14/7 11:37:54 [81496] - [32minfo[39m: Enabling 'trust proxy'
+14/7 11:37:54 [81496] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+14/7 11:37:59 [81496] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+14/7 11:37:59 [81496] - [32minfo[39m: [app] Database connection closed.
+14/7 11:37:59 [81496] - [32minfo[39m: [app] Web server closed to connections.
+14/7 11:37:59 [81496] - [32minfo[39m: [app] Shutdown complete.
+[cluster] Child Process (81496) has exited (code: 0, signal: null)

@@ -1,0 +1,290 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var fs = require('fs');
+var path = require('path');
+var cproc = require('child_process');
+
+// check to make sure dependencies are installed
+try {
+	fs.readFileSync(path.join(__dirname, 'node_modules/async/package.json'));
+} catch (e) {
+	if (e.code === 'ENOENT') {
+		process.stdout.write('Dependencies not yet installed.\n');
+		process.stdout.write('Installing them now...\n\n');
+
+		cproc.execSync('npm i --production', {
+			cwd: __dirname,
+			stdio: [0, 1, 2],
+		});
+	} else {
+		throw e;
+	}
+}
+
+var minimist;
+var request;
+var semver;
+var prompt;
+var async;
+
+try {
+	require('colors');
+	minimist = require('minimist');
+	request = require('request');
+	semver = require('semver');
+	prompt = require('prompt');
+	async = require('async');
+} catch (e) {
+	process.stdout.write(
+		'\x1b[31mHuuMinh DL Script could not be initialised because there was an error while loading dependencies.\n' +
+		'Please run "\x1b[33mnpm install --production\x1b[31m" and try again.\x1b[0m\n\n' +
+		'For more information, please see: https://huuminh.net\n\n'
+	);
+
+	throw e;
+}
+
+var args = minimist(process.argv.slice(2));
+
+var loaderPath = path.join(__dirname, 'init.js');
+var appPath = path.join(__dirname, 'app.js');
+
+if (args.dev) {
+	process.env.NODE_ENV = 'development';
+}
+
+function getRunningPid(callback) {
+	fs.readFile(path.join(__dirname, 'pidfile'), {
+		encoding: 'utf-8',
+	}, function (err, pid) {
+		if (err) {
+			return callback(err);
+		}
+
+		try {
+			process.kill(parseInt(pid, 10), 0);
+			callback(null, parseInt(pid, 10));
+		} catch (e) {
+			callback(e);
+		}
+	});
+}
+
+function getCurrentVersion(callback) {
+	fs.readFile(path.join(__dirname, 'package.json'), { encoding: 'utf-8' }, function (err, pkg) {
+		if (err) {
+			return callback(err);
+		}
+
+		try {
+			pkg = JSON.parse(pkg);
+			return callback(null, pkg.version);
+		} catch (err) {
+			return callback(err);
+		}
+	});
+}
+
+function fork(args) {
+	return cproc.fork(appPath, args, {
+		cwd: __dirname,
+		silent: false,
+	});
+}
+
+var commands = {
+	status: {
+		description: 'View the status of the HuuMinh DL Script server',
+		usage: 'Usage: ' + './huuminh-dl status'.yellow,
+		handler: function () {
+			getRunningPid(function (err, pid) {
+				if (!err) {
+					process.stdout.write('\HuuMinh DL Script Running '.bold + '(pid '.cyan + pid.toString().cyan + ')\n'.cyan);
+					process.stdout.write('\t"' + './huuminh-dl stop'.yellow + '" to stop the HuuMinh DL server\n');
+					process.stdout.write('\t"' + './huuminh-dl log'.yellow + '" to view server HuuMinh DL\n');
+					process.stdout.write('\t"' + './huuminh-dl restart'.yellow + '" to restart HuuMinh DL\n\n');
+				} else {
+					process.stdout.write('\nHuuMinh DL Script is not running\n'.bold);
+					process.stdout.write('\t"' + './huuminh-dl start'.yellow + '" to launch the HuuMinh DL server\n\n'.reset);
+				}
+			});
+		},
+	},
+	start: {
+		description: 'Start the HuuMinh DL server',
+		usage: 'Usage: ' + './huuminh-dl start'.yellow,
+		handler: function () {
+			process.stdout.write('\nStarting NodeBB\n'.bold);
+			process.stdout.write('  "' + './huuminh-dl stop'.yellow + '" to stop the HuuMinh DL server\n');
+			process.stdout.write('  "' + './huuminh-dl log'.yellow + '" to view server output\n');
+			process.stdout.write('  "' + './huuminh-dl restart'.yellow + '" to restart HuuMinh DL\n\n'.reset);
+
+			// Spawn a new NodeBB process
+			cproc.fork(loaderPath, {
+				env: process.env,
+			});
+		},
+	},
+	stop: {
+		description: 'Stop the HuuMinh DL Script server',
+		usage: 'Usage: ' + './huuminh-dl stop'.yellow,
+		handler: function () {
+			getRunningPid(function (err, pid) {
+				if (!err) {
+					process.kill(pid, 'SIGTERM');
+					process.stdout.write('Stopping HuuMinh DL Script. Goodbye!\n');
+				} else {
+					process.stdout.write('HuuMinh DL Script is already stopped.\n');
+				}
+			});
+		},
+	},
+	restart: {
+		description: 'Restart the HuuMinh DL Script server',
+		usage: 'Usage: ' + './huuminh-dl restart'.yellow,
+		handler: function () {
+			getRunningPid(function (err, pid) {
+				if (!err) {
+					process.kill(pid, 'SIGHUP');
+					process.stdout.write('\nRestarting HuuMinh DL Script\n'.bold);
+				} else {
+					process.stdout.write('HuuMinh DL Script could not be restarted, as a running instance could not be found.\n');
+				}
+			});
+		},
+	},
+	log: {
+		description: 'Open the output log (useful for debugging)',
+		usage: 'Usage: ' + './huuminh-dl log'.yellow,
+		handler: function () {
+			process.stdout.write('\nHit '.red + 'Ctrl-C '.bold + 'to exit'.red);
+			process.stdout.write('\n\n'.reset);
+			cproc.spawn('tail', ['-F', './logs/output.log'], {
+				cwd: __dirname,
+				stdio: 'inherit',
+			});
+		},
+	},
+	slog: {
+		description: 'Start the HuuMinh DL Script server and view the live output log',
+		usage: 'Usage: ' + './huuminh-dl slog'.yellow,
+		handler: function () {
+			process.stdout.write('\nStarting NodeBB with logging output\n'.bold);
+			process.stdout.write('\nHit '.red + 'Ctrl-C '.bold + 'to exit'.red);
+			process.stdout.write('\n\n'.reset);
+
+			// Spawn a new NodeBB process
+			cproc.fork(loaderPath, {
+				env: process.env,
+			});
+			cproc.spawn('tail', ['-F', './logs/output.log'], {
+				cwd: __dirname,
+				stdio: 'inherit',
+			});
+		},
+	},
+	dev: {
+		description: 'Start HuuMinh DL Script in verbose development mode',
+		usage: 'Usage: ' + './huuminh-dl dev'.yellow,
+		handler: function () {
+			process.env.NODE_ENV = 'development';
+			cproc.fork(loaderPath, ['--no-daemon', '--no-silent'], {
+				env: process.env,
+			});
+		},
+	},
+	setup: {
+		description: 'Run the HuuMinh DL Script setup script',
+		usage: 'Usage: ' + './huuminh-dl setup'.yellow,
+		handler: function () {
+			var arr = ['--setup'].concat(process.argv.slice(3));
+			fork(arr);
+		},
+	},
+	upgrade: {
+		description: 'Run HuuMinh DL Script upgrade scripts, ensure packages are up-to-date',
+		usage: 'Usage: ' + './huuminh-dl upgrade'.yellow,
+		handler: function () {
+			if (process.argv[3]) {
+				process.stdout.write('\nUpdating HuuMinh DL Script data store schema...\n'.yellow);
+				var arr = ['--upgrade'].concat(process.argv.slice(3));
+				var upgradeProc = fork(arr);
+
+				return upgradeProc.on('close', function (err) {
+					if (err) {
+						process.stdout.write('\nError'.red + ': ' + err.message + '\n');
+					}
+				});
+			}
+
+			async.series([
+				function (next) {
+					process.stdout.write('1. '.bold + 'Bringing base dependencies up to date... '.yellow);
+					cproc.exec('npm i --production', { cwd: __dirname, stdio: 'ignore' }, next);
+				},
+				function (next) {
+					process.stdout.write('3. '.bold + 'Updating HuuMinh DL Script data store schema...\n'.yellow);
+					var arr = ['--upgrade'].concat(process.argv.slice(3));
+					var upgradeProc = fork(arr);
+
+					upgradeProc.on('close', next);
+				},
+			], function (err) {
+				if (err) {
+					process.stdout.write('\nError'.red + ': ' + err.message + '\n');
+				} else {
+					var message = 'HuuMinh DL Script Upgrade Complete!';
+					// some consoles will return undefined/zero columns, so just use 2 spaces in upgrade script if we can't get our column count
+					var columns = process.stdout.columns;
+					var spaces = columns ? new Array(Math.floor(columns / 2) - (message.length / 2) + 1).join(' ') : '  ';
+
+					process.stdout.write('OK\n'.green);
+					process.stdout.write('\n' + spaces + message.green.bold + '\n\n'.reset);
+				}
+			});
+		},
+	},
+    upgradePlugins: {
+        hidden: true,
+        description: '',
+        handler: function () {
+            upgradePlugins();
+        },
+    },
+	help: {
+		description: 'Display the help message for a given command',
+		usage: 'Usage: ' + './huuminh-dl help <command>'.yellow,
+		handler: function () {
+			var command = commands[args._[1]];
+			if (command) {
+				process.stdout.write(command.description + '\n'.reset);
+				process.stdout.write(command.usage + '\n'.reset);
+
+				return;
+			}
+			var keys = Object.keys(commands).filter(function (key) {
+				return !commands[key].hidden;
+			});
+
+			process.stdout.write('\nWelcome to HuuMinh DL Script\n\n'.bold);
+			process.stdout.write('Usage: ./huuminh-dl {' + keys.join('|') + '}\n\n');
+
+			var usage = keys.map(function (key) {
+				var line = '\t' + key.yellow + (key.length < 8 ? '\t\t' : '\t');
+				return line + commands[key].description;
+			}).join('\n');
+
+			process.stdout.write(usage + '\n'.reset);
+		},
+	},
+};
+
+commands['upgrade-plugins'] = commands.upgradePlugins;
+
+if (!commands[args._[0]]) {
+	commands.help.handler();
+} else {
+	commands[args._[0]].handler();
+}
