@@ -8,9 +8,32 @@ main {
   margin-top: 51px;
   padding-top: 15px; }
 
+a.btn:hover, a.btn:focus {
+  text-decoration: none;
+  outline: 0; }
+
 .panel .panel-heading {
   font-weight: bold;
   text-transform: uppercase; }
+.panel .tb-heading th {
+  font-weight: bold;
+  text-align: center;
+  text-transform: capitalize; }
+.panel .tb-heading th:nth-child(2) {
+  text-align: left; }
+.panel .tb-heading th:first-child {
+  font-weight: bold;
+  text-align: center;
+  width: 50px; }
+.panel .tb-items td:first-child {
+  font-weight: bold;
+  text-align: center; }
+.panel .account-form {
+  padding: 20px;
+  margin: 10px 0;
+  background: #eee;
+  border: 1px solid #ccc;
+  display: none; }
 
 .panel-login {
   margin-top: 50px; }

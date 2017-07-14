@@ -38,7 +38,7 @@ mongoModule.questions = [
 	{
 		name: 'mongo:database',
 		description: 'MongoDB database name',
-		default: nconf.get('mongo:database') || 'nodebb',
+		default: nconf.get('mongo:database') || 'huuminh',
 	},
 ];
 
@@ -65,7 +65,7 @@ mongoModule.init = function (callback) {
 		nconf.set('mongo:port', 27017);
 	}
 	if (!nconf.get('mongo:database')) {
-		nconf.set('mongo:database', 'nodebb');
+		nconf.set('mongo:database', 'huuminh');
 	}
 
 	var hosts = nconf.get('mongo:host').split(',');
@@ -164,7 +164,7 @@ mongoModule.checkCompatibility = function (callback) {
 
 mongoModule.checkCompatibilityVersion = function (version, callback) {
 	if (semver.lt(version, '2.0.0')) {
-		return callback(new Error('The `mongodb` package is out-of-date, please run `./nodebb setup` again.'));
+		return callback(new Error('The `mongodb` package is out-of-date, please run `./huuminh-dl setup` again.'));
 	}
 
 	callback();

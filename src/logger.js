@@ -77,7 +77,7 @@ Logger.open = function (value) {
 			var stats = fs.statSync(value);
 			if (stats) {
 				if (stats.isDirectory()) {
-					stream = fs.createWriteStream(path.join(value, 'nodebb.log'), { flags: 'a' });
+					stream = fs.createWriteStream(path.join(value, 'huuminh-dl.log'), { flags: 'a' });
 				} else {
 					stream = fs.createWriteStream(value, { flags: 'a' });
 				}

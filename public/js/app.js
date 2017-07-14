@@ -58,6 +58,23 @@ var app = window.app || {};
         return toastr.error("Session invalid, please try login again!");
     };
 
+    $('#addAccountButton').click(function (e) {
+        e.preventDefault();
+        var me = $(this),
+            type= me.data('type'),
+            btnShowText = me.data('show'),
+            btnHideText = me.data('hide');
+        if(type === 'show') {
+            $('.account-form').slideDown('slow', function () {
+                me.text(btnHideText).removeClass('.btn-primary').addClass('btn-danger').data('type', 'hide');
+            });
+        } else {
+            $('.account-form').slideUp('slow', function () {
+                me.text(btnShowText).removeClass('.btn-danger').addClass('btn-primary').data('type', 'show');;
+            });
+        }
+    });
+
     $('.ajax-form').ajaxForm({
         headers: {
             'x-csrf-token': config.csrf_token,

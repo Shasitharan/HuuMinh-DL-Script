@@ -55,6 +55,6 @@ function restart() {
 			action: 'restart',
 		});
 	} else {
-		winston.error('[meta.restart] Could not restart, are you sure NodeBB was started with `./nodebb start`?');
+		winston.error('[meta.restart] Could not restart, are you sure NodeBB was started with `./huuminh-dl start`?');
 	}
 }
