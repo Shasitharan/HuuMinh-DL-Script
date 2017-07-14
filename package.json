@@ -1,0 +1,56 @@
+{
+  "name": "huuminh-dl",
+  "version": "0.0.1",
+  "license": "GPL-3.0",
+  "description": "HuuMinh DL Script",
+  "homepage": "https://huuminh.net/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huuminhtech/dl -script"
+  },
+  "scripts": {
+    "start": "node init.js",
+    "lint": "eslint --cache ./huuminh .",
+    "pretest": "npm run lint"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "cron": "^1.2.1",
+    "crypto": "0.0.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.3",
+    "hbs": "~4.0.1",
+    "js-beautify": "^1.6.14",
+    "jsdom": "^11.1.0",
+    "logrotate-stream": "^0.2.5",
+    "megajs": "^0.11.4",
+    "moment": "^2.18.1",
+    "morgan": "~1.8.1",
+    "nconf": "^0.8.4",
+    "node-cache": "^4.1.1",
+    "node-json-db": "^0.7.3",
+    "node-openload": "^2.0.1",
+    "node-sass-middleware": "0.9.8",
+    "redis": "^2.7.1",
+    "request": "^2.81.0",
+    "serve-favicon": "~2.4.2",
+    "winston": "^2.3.1",
+    "xregexp": "^3.2.0",
+    "youtube-dl": "^1.11.1"
+  },
+  "main": "app.js",
+  "bugs": {
+    "email": "support@huuminh.net",
+    "url": "https://github.com/huuminhtech/generate-scripts/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "maintainers": {
+    "name": "Nguyen Minh",
+    "email": "minh@huuminh.net",
+    "url": "https://huuminh.net/author/huuminh/"
+  }
+}
