@@ -1,7 +1,7 @@
 <div class="container">
     <form method="post" class="form-horizontal ajax-form">
         <div class="panel panel-default">
-            <div class="panel-heading">Site Settings {{title}}</div>
+            <div class="panel-heading">Site Settings</div>
             <div class="panel-body">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
@@ -25,6 +25,19 @@
                                 <div>
                                     <label for="url" class="control-label">Site URL</label>
                                     <input id="url" class="form-control" type="text" name="url" value="{{url}}" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-md-2">Users</label>
+                            <div class="col-md-10">
+                                <div>
+                                    <label for="loginAttempts" class="control-label">Max Login attempts</label>
+                                    <input id="loginAttempts" class="form-control" type="text" name="loginAttempts" value="{{loginAttempts}}" />
+                                </div>
+                                <div>
+                                    <label for="lockoutDuration" class="control-label">Ban IP Duration</label>
+                                    <input id="lockoutDuration" class="form-control" type="number" name="lockoutDuration" value="{{lockoutDuration}}" />
                                 </div>
                             </div>
                         </div>
@@ -79,7 +92,7 @@
                     </div><!-- end .row -->
                 </div>
             </div>
-            <div class="panel-footer">
+            <div class="panel-footer text-center">
                 <button type="submit" class="btn btn-primary">Save Changes</button>
             </div>
         </div>

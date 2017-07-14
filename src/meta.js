@@ -12,10 +12,18 @@ var Meta = module.exports;
 
 Meta.reloadRequired = false;
 Meta.configs = require('./meta/configs');
+Meta.user = require('./meta/user');
 
-/**
- * Reload deprecated as of v1.1.2+, remove in v2.x
- */
+Meta.userOrGroupExists = function (slug, callback) {
+    var user = require('./user');
+    slug = utils.slugify(slug);
+    async.parallel([
+        async.apply(user.existsBySlug, slug),
+    ], function (err, results) {
+        callback(err, results ? results.some(function (result) { return result; }) : false);
+    });
+};
+
 Meta.reload = function (callback) {
 	restart();
 	callback();

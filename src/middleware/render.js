@@ -27,6 +27,9 @@ module.exports = function (middleware) {
             }
 
             async.waterfall([
+                function (next) {
+                    middleware.applyCSRF(req, res, next);
+                },
                 meta.configs.list,
                 function (configs, next) {
                     options.loggedIn = !!req.uid;
@@ -34,6 +37,7 @@ module.exports = function (middleware) {
                     options._locals = undefined;
                     options.configs = options.configs || {};
                     options.templateJS = options.templateJS || {};
+                    options.csrf_token = req.csrfToken();
                     options.configs.app = {
                         url: configs.url,
                         name: configs.siteName,
@@ -47,6 +51,7 @@ module.exports = function (middleware) {
                         maxReconnectionAttempts: configs.maxReconnectionAttempts,
                         recaptchaKey: configs.recaptchaKey,
                         realtimeAnalytics: configs.realtimeAnalytics,
+                        csrf_token: options.csrf_token,
                     }
                     options.templateJS.configs = JSON.stringify(options.templateJS.configs);
                     async.parallel({
@@ -57,8 +62,7 @@ module.exports = function (middleware) {
                         content: function (next) {
                             options.layout = 'layout';
                             render.call(self, template, options, next);
-                        },
-                        footer: function (next) {
+                        },                        footer: function (next) {
                             options.layout = '';
                             req.app.render('footer', options, next);
                         }
@@ -70,7 +74,6 @@ module.exports = function (middleware) {
                 }
             ], fn);
         }
-
         next();
     }
 }

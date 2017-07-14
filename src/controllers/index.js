@@ -1,14 +1,32 @@
 'use strict';
+
 var async = require('async');
 var db = require('../database');
 
 var Controllers = module.exports;
 
+Controllers.user = require('./user');
+
 Controllers.home = function (req, res, next) {
     var data = {};
-    data.title = "HuuMinh DL Script";
+    data.title = "Download";
     res.render('index', data);
 };
+
+Controllers.login = function (req, res, next) {
+    var data = {};
+    var errorText;
+
+    if (req.query.error === 'csrf-invalid') {
+        errorText = 'csrf-invalid';
+    } else if (req.query.error) {
+        errorText = validator.escape(String(req.query.error));
+    }
+
+    data.error = req.flash('error')[0] || errorText;
+    data.title = "Login";
+    res.render('login', data);
+}
 
 Controllers.settings = function (req, res, callback) {
     var data = {};
@@ -62,10 +80,23 @@ Controllers.accounts = function (req, res, next) {
     res.render('index', data);
 };
 
-Controllers.profile = function (req, res, next) {
+Controllers.profile = function (req, res, callback) {
     var data = {};
-    data.title = "Profile - HuuMinh DL Script";
-    res.render('index', data);
+    data.title = "Settings - HuuMinh DL Script";
+    data.navActive = "profile";
+    async.waterfall([
+        function (next) {
+            Controllers.user.getUserFields(req.uid, ['username', 'email', 'lastonline'], next);
+        },
+        function (userdata, next) {
+            data.user = userdata;
+            Controllers.user.getUserSessions(req.uid, req.sessionID, next);
+        },
+        function (session, next) {
+            data.userSessions = session;
+            res.render('profile', data);
+        }
+    ], callback);
 };
 
 Controllers.logout = function (req, res, next) {

@@ -1,6 +1,7 @@
 'use strict';
 
 var meta = require('../meta');
+var async = require('async');
 
 module.exports = function (middleware) {
     middleware.addHeaders = function (req, res, next) {
@@ -20,9 +21,20 @@ module.exports = function (middleware) {
                 res.setHeader(key, headers[key]);
             }
         }
-
         next();
     };
+
+    middleware.checkBanned = function (req, res, next) {
+        async.waterfall([
+            function (next) {
+                meta.user.checkBanned(req.ip, next);
+            },
+            function (isBanned, next) {
+                if(isBanned) return res.status(403).send('Your IP has been banned!');
+                next();
+            }
+        ], next);
+    }
 
     middleware.addExpiresHeaders = function (req, res, next) {
         if (req.app.enabled('cache')) {

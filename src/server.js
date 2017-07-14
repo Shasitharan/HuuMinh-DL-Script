@@ -21,6 +21,7 @@ var db = require('./database');
 var logger = require('./logger');
 var routes = require('./routes');
 var helpers = require('./helpers');
+var user = require('./controllers/user');
 
 if (nconf.get('ssl')) {
     server = require('https').createServer({
@@ -57,7 +58,6 @@ module.exports.listen = function (callback) {
         },
         function (next) {
             winston.info('HuuMinh DL Script Ready');
-
             require('./socket.io').server.emit('event:nodebb.ready', {
                 'cache-buster': meta.config['cache-buster'],
             });
@@ -124,8 +124,11 @@ function setupExpressApp(app, callback) {
 
     app.use(express.static('public'));
 
+    app.use(middleware.checkBanned);
     app.use(middleware.addHeaders);
     app.use(middleware.renderTemplate);
+
+    user.initialize(app, middleware);
 
     var toobusy = require('toobusy-js');
     toobusy.maxLag(100);

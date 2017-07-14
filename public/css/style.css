@@ -11,8 +11,9 @@ main {
 .panel .panel-heading {
   font-weight: bold;
   text-transform: uppercase; }
-.panel .panel-footer {
-  text-align: right; }
+
+.panel-login {
+  margin-top: 50px; }
 
 footer .copyright {
   text-align: center;

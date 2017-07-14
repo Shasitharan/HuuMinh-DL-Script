@@ -1,0 +1,85 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form method="post" class="form-horizontal ajax-form">
+                <div class="panel panel-default">
+                    <div class="panel-heading">General Account Settings</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label col-md-4">Username</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control" type="text" name="username" value="{{user.username}}" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-4">Email</label>
+                                    <div class="col-md-8">
+                                        <input class="form-control" type="email" name="email" value="{{user.email}}" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="control-label col-md-4">Password</label>
+                                    <div class="col-md-8">
+                                        <input id="password" class="form-control" type="password" name="password" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirm_password" class="control-label col-md-4">Confirm password</label>
+                                    <div class="col-md-8">
+                                        <input id="confirm_password" class="form-control" type="password" name="confirm_password" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- end .panel-body -->
+                    <div class="panel-footer text-center">
+                        <button type="submit" class="btn btn-primary">Save Changes</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <form method="post" class="form-horizontal ajax-form">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Where You're Logged In</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Platform</th>
+                                            <th>Browser</th>
+                                            <th>IP</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    {{#if userSessions}}
+                                    <tbody>
+                                        {{#each userSessions}}
+                                        <tr>
+                                            <td>{{meta.platform}}</td>
+                                            <td>{{meta.browser}}</td>
+                                            <td>{{meta.ip}}</td>
+                                            {{#if active}}
+                                            <td class="text-success text-right">Active now</td>
+                                            {{else}}
+                                            <td class="text-right">
+                                                <a class="text-danger" href="#" onclick="disconnectSession(this); return false;" data-sid="{{sid}}">Disconnect</a>
+                                            </td>
+                                            {{/if}}
+                                        </tr>
+                                        {{/each}}
+                                    </tbody>
+                                    {{/if}}
+                                </table>
+                            </div>
+                        </div>
+                    </div><!-- end .panel-body -->
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
