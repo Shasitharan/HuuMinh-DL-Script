@@ -80,7 +80,9 @@ function onMessage(socket, payload) {
     }
 
     var eventName = payload.data[0];
+
     var params = payload.data[1];
+
     var callback = typeof payload.data[payload.data.length - 1] === 'function' ? payload.data[payload.data.length - 1] : function () {};
 
     if (!eventName) {
@@ -147,10 +149,9 @@ function requireModules() {
 function checkMaintenance(socket, callback) {
     var meta = require('../meta');
 
-    if (parseInt(meta.config.maintenanceMode, 10) !== 'yes') {
+    if (parseInt(meta.config.maintenanceMode, 10) === 'yes') {
         return setImmediate(callback);
     }
-
     callback();
 }
 

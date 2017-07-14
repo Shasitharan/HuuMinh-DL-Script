@@ -52,8 +52,7 @@ User.deleteSession = function (req, res, next) {
                     User.auth.revokeSession(req.body.sid, req.uid, next);
                 },
                 function (next) {
-                    sockets.in('sess_' + req.body.sid).emit('checkSession', req.uid);
-
+                    sockets.in('sess_' + req.body.sid).emit('reloadData', req.uid);
                     res.json({
                         error: false,
                         message: "Your changes have been saved!"
@@ -219,24 +218,42 @@ User.localLogin = function (req, username, password, next) {
         },
         function (passwordMatch, next) {
             if (!passwordMatch) {
-                User.logAttempt(req.ip, next);
-                return next(new Error('Username or password incorect'));
+                async.waterfall([
+                    function (next) {
+                        User.logAttempt(req, next);
+                    },
+                    function (next) {
+                        return next(new Error('Username or password incorect'));
+                    }
+                ], next);
+            } else {
+                next(null, userData, 'Authentication successful');
             }
-            next(null, userData, 'Authentication successful');
         },
     ], next);
 };
 
-User.logAttempt = function(ip) {
+User.logAttempt = function(req, callback) {
+    var ip = req.ip;
     async.waterfall([
         function (next) {
             db.exists('lockout:' + ip, next);
         },
         function (exists, next) {
             if (exists) {
-                return sockets.in('lockout_' + ip).emit('checkBanned', ip);
+                sockets.in('sess_' + req.sessionID).emit('reloadData', ip);
+                return callback(new Error('Your IP has been banned!'));
+            } else {
+                async.waterfall([
+                    function (next) {
+                        db.get('loginAttempts:' + ip, next);
+                    },
+                    function (attemps, next) {
+                        db.set('loginAttempts:' + ip, attemps+1);
+                        next(null, attemps+1);
+                    }
+                ], next);
             }
-            db.increment('loginAttempts:' + ip, next);
         },
         function (attemps, next) {
             var loginAttempts = parseInt(meta.config.loginAttempts, 10) || 5;
@@ -249,11 +266,9 @@ User.logAttempt = function(ip) {
             var duration = 1000 * 60 * (meta.config.lockoutDuration || 2880);
             db.delete('loginAttempts:' + ip);
             db.pexpire('lockout:' + ip, duration);
-            next(new Error('IP Banned'));
+            return sockets.in('sess_' + req.sessionID).emit('reloadData', ip);
         },
-    ], function (err, result) {
-
-    });
+    ], callback);
 }
 
 function continueLogin(req, res, next) {
@@ -578,13 +593,6 @@ function modifyUserData(users, fieldsToRemove, callback) {
 
     callback(null, users);
 }
-
-User.getDefaultAvatar = function () {
-    if (!meta.config.defaultAvatar) {
-        return '';
-    }
-    return meta.config.defaultAvatar.startsWith('http') ? meta.config.defaultAvatar : nconf.get('relative_path') + meta.config.defaultAvatar;
-};
 
 User.setUserField = function (uid, field, value, callback) {
     callback = callback || function () {};

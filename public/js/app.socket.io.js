@@ -31,6 +31,10 @@ app.isConnected = false;
         }
     });
 
+    socket.on('reloadData', function (ips) {
+        window.location.reload();
+    });
+
     function onConnect() {
         app.isConnected = true;
         if (!reconnecting) {
