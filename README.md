@@ -3,7 +3,7 @@ HuuMinh DL Script is script generator premium link that allows you to download f
 > Version: **0.0.1**\
 > Copyright: **HuuMinh Technologies**\
 > Author: **Nguyen Minh**\
-> Homepage: **https://huuminh.net**\
+> Homepage: **https://huuminh.net** \
 > Support: **https://huuminh.net/contact-us/**
 
 ##Usage
