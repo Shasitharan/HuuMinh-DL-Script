@@ -140,7 +140,7 @@ function onMessage(socket, payload) {
 }
 
 function requireModules() {
-    var modules = ['meta'];
+    var modules = ['meta', 'hosts'];
     modules.forEach(function (module) {
         Namespaces[module] = require('./' + module);
     });

@@ -13,6 +13,7 @@ var Meta = module.exports;
 Meta.reloadRequired = false;
 Meta.configs = require('./meta/configs');
 Meta.user = require('./meta/user');
+Meta.host = require('./meta/host');
 
 Meta.userOrGroupExists = function (slug, callback) {
     var user = require('./user');

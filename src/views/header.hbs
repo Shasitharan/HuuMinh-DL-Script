@@ -28,7 +28,7 @@
         <div id="navbar" class="navbar-collapse collapse">
             {{#if loggedIn}}
             <ul class="nav navbar-nav">
-                <li{{#unless navActive}} class="active" {{/unless}}><a href="#">Download</a></li>
+                <li{{#unless navActive}} class="active" {{/unless}}><a href="/">Downloader</a></li>
                 <li{{#ifEquals navActive "files"}} class="active" {{/ifEquals}}><a href="/files">Server Files</a></li>
                 <li{{#ifEquals navActive "accounts"}} class="active" {{/ifEquals}}><a href="/accounts">Accounts</a></li>
                 <li{{#ifEquals navActive "settings"}} class="active" {{/ifEquals}}><a href="/settings">Settings</a></li>

@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "execMap": {
+        "js": "node --harmony",
+        "handlebars": "node --harmony"
+    },
+    "ext": "js json hbs"
+}

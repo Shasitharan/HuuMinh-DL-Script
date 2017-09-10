@@ -34,6 +34,8 @@ a.btn:hover, a.btn:focus {
   background: #eee;
   border: 1px solid #ccc;
   display: none; }
+.panel .hostname {
+  font-weight: bold; }
 
 .panel-login {
   margin-top: 50px; }

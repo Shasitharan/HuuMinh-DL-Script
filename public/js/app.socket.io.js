@@ -43,25 +43,9 @@ app.isConnected = false;
         }
 
         if (reconnecting) {
-            reJoinCurrentRoom();
             socket.emit('meta.reconnected');
             $(window).trigger('action:reconnected');
         }
-    }
-
-    function reJoinCurrentRoom() {
-        var	url_parts = window.location.pathname.slice(config.relative_path.length).split('/').slice(1);
-        var room;
-        switch (url_parts[0]) {
-            case 'user':
-                room = 'user';
-                break;
-            case 'download':
-                room = 'download';
-                break;
-        }
-        app.currentRoom = '';
-        app.enterRoom(room);
     }
 
     function onReconnecting() {

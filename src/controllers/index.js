@@ -2,7 +2,6 @@
 
 var async = require('async');
 var db = require('../database');
-
 var Controllers = module.exports;
 
 Controllers.user = require('./user');
@@ -72,6 +71,7 @@ Controllers.updateSettings = function (req, res, next) {
 Controllers.files = function (req, res, next) {
     var data = {};
     data.title = "Server Files - HuuMinh DL Script";
+    data.navActive = "files";
     res.render('index', data);
 };
 

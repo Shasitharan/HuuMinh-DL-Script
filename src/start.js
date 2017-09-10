@@ -3,6 +3,7 @@
 var async = require('async');
 var nconf = require('nconf');
 var url = require('url');
+var hosts = require('./hosts');
 var winston = require('winston');
 
 var start = module.exports;
@@ -37,6 +38,9 @@ start.start = function () {
         },
         function (next) {
             db.initSessionStore(next);
+        },
+        function (next) {
+            hosts.init(next);
         },
         function (next) {
             var webserver = require('./server');

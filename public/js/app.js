@@ -17,46 +17,72 @@ var app = window.app || {};
         });
 
         socket.removeAllListeners('event:huuminh.ready');
-
         helpers.register();
-
         $(window).trigger('action:app.load');
-    }
-
-    app.enterRoom = function (room, callback) {
-        callback = callback || function () {};
-        if (socket && app.logged_id && app.currentRoom !== room) {
-            var previousRoom = app.currentRoom;
-            app.currentRoom = room;
-            socket.emit('meta.rooms.enter', {
-                enter: room,
-            }, function (err) {
-                if (err) {
-                    app.currentRoom = previousRoom;
-                    return toastr.error(err.message);
-                }
-                callback();
-            });
-        }
-    };
-
-    app.leaveCurrentRoom = function () {
-        if (!socket) {
-            return;
-        }
-        var previousRoom = app.currentRoom;
-        app.currentRoom = '';
-        socket.emit('meta.rooms.leaveCurrent', function (err) {
-            if (err) {
-                app.currentRoom = previousRoom;
-                return toastr.error(err.message);
-            }
-        });
     };
 
     app.handleInvalidSession = function () {
         return toastr.error("Session invalid, please try login again!");
     };
+
+    $('#addAccount').click(function (e) {
+        e.preventDefault();
+        var hostname = $('#hostname').val(),
+            account = $('#account').val();
+        if(account.length === 0) {
+            toastr.error("Account is required!");
+            return false;
+        }
+
+        socket.emit('hosts.addAccount', {account: account, hostname:hostname}, function (err, result) {
+            if ( err ) {
+                toastr.error(err.message);
+                return false;
+            }
+            toastr.success('Account have been added successfully!')
+        });
+    });
+
+    $(document).on('click', '.checkAccBtn', function (e) {
+        e.stopImmediatePropagation();
+        var $el = $(this).parents('tr'),
+            id = $el.data('id');
+        if(!id) return false;
+        return checkAcc(id);
+    });
+
+    $(document).on('click', '.deleteAccBtn', function (e) {
+        e.stopImmediatePropagation();
+        if(!confirm('Are you sure you want delete this account?')){ return false; }
+        var $el = $(this).parents('tr'),
+            id = $el.data('id');
+        socket.emit('hosts.removeAccount', {id: id}, function (err, result) {
+            if(err) return toastr.error(err.message);
+            toastr.success(result);
+            $el.fadeOut('slow', function () {
+                $(this).remove();
+            });
+        });
+    });
+
+    function checkAcc(id) {
+        if(!id) return false;
+        var $el = $('#acc-'+id),
+            $status = $el.find('.account-status span'),
+            $expire = $el.find('.account-expire');
+        $status.removeClass('label-success').removeClass('label-danger').addClass('label-info').text('checking...');
+        socket.emit('hosts.checkAccount', {id:id}, function (err, result) {
+            if(err) return toastr.error(err.message);
+            if(result.status === 'valid') {
+                $status.removeClass('label-info').addClass('label-success').text(result.status);
+                $expire.text(result.expire);
+            } else {
+                $status.removeClass('label-info').addClass('label-danger').text(result.status);
+                $expire.text('');
+            }
+        });
+
+    }
 
     $('#addAccountButton').click(function (e) {
         e.preventDefault();
@@ -66,11 +92,11 @@ var app = window.app || {};
             btnHideText = me.data('hide');
         if(type === 'show') {
             $('.account-form').slideDown('slow', function () {
-                me.text(btnHideText).removeClass('.btn-primary').addClass('btn-danger').data('type', 'hide');
+                me.text(btnHideText).removeClass('btn-primary').addClass('btn-danger').data('type', 'hide');
             });
         } else {
             $('.account-form').slideUp('slow', function () {
-                me.text(btnShowText).removeClass('.btn-danger').addClass('btn-primary').data('type', 'show');;
+                me.text(btnShowText).removeClass('btn-danger').addClass('btn-primary').data('type', 'show');;
             });
         }
     });
