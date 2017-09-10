@@ -24,6 +24,11 @@ Hosts.preSupport = function (callback) {
     callback(null, SupportList);
 };
 
+Hosts.getSupport = function (callback) {
+    var support = Object.keys(HostSupport);
+    callback(null, support);
+};
+
 Hosts.checkSupport = function(hostname, callback) {
     if(!hostname) return callback(null, false);
     var module = HostSupport[hostname];

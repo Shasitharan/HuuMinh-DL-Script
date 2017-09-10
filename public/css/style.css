@@ -36,6 +36,16 @@ a.btn:hover, a.btn:focus {
   display: none; }
 .panel .hostname {
   font-weight: bold; }
+.panel #generate-area {
+  resize: vertical;
+  border-radius: 3px;
+  min-height: 100px; }
+.panel .generate-action {
+  margin-top: 15px; }
+
+.support-panel .list-group-item {
+  font-weight: bold !important;
+  padding: 5px 10px; }
 
 .panel-login {
   margin-top: 50px; }

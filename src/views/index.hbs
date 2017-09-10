@@ -1,1 +1,25 @@
-adasdasdefsdfsd
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-info support-panel">
+                <div class="panel-heading text-center">SUPPORTED</div>
+                <ul class="list-group">
+                    {{#each supportList}}
+                    <li class="list-group-item">{{this}}</li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-heading">DOWNLOADER</div>
+                <div class="panel-body">
+                    <textarea class="form-control" id="generate-area" placeholder="Put your link here!"></textarea>
+                    <div class="generate-action text-center">
+                        <button type="button" class="btn btn-primary">Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

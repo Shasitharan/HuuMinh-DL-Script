@@ -2,6 +2,8 @@
 
 var async = require('async');
 var db = require('../database');
+var Hosts = require('../hosts');
+
 var Controllers = module.exports;
 
 Controllers.user = require('./user');
@@ -10,7 +12,16 @@ Controllers.account = require('./account');
 Controllers.home = function (req, res, next) {
     var data = {};
     data.title = "Download";
-    res.render('index', data);
+    async.waterfall([
+        function (next) {
+            Hosts.getSupport(next);
+        },
+        function (supportList, next) {
+            data.supportList = supportList;
+            res.render('index', data);
+        }
+    ], next);
+
 };
 
 Controllers.login = function (req, res, next) {
