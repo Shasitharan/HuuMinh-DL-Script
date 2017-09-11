@@ -12,6 +12,8 @@ Controllers.account = require('./account');
 Controllers.home = function (req, res, next) {
     var data = {};
     data.title = "Download";
+    data.navActive = "generate";
+
     async.waterfall([
         function (next) {
             Hosts.getSupport(next);

@@ -3,6 +3,8 @@
 var fs = require('fs');
 var async = require('async');
 var winston = require('winston');
+const url = require('url');
+
 var db = require('../database');
 
 var Hosts = module.exports;
@@ -11,6 +13,23 @@ var HostSupport = {};
 Hosts.init = function (callback) {
     requireModules();
     callback();
+};
+
+Hosts.generate = function (link, callback) {
+    if(!link) return callback('Invalid data');
+    winston.info('Generating download link');
+
+    var urlParse = url.parse(link);
+    if(!urlParse.hostname) return callback('Invalid url');
+    var hostname = urlParse.hostname;
+    async.waterfall([
+        function (next) {
+            Hosts.checkSupport(hostname, next);
+        },
+        function (status, next) {
+            if(!status) return callback(new Error(hostname+' is not supported'));
+        }
+    ], callback);
 };
 
 Hosts.preSupport = function (callback) {
@@ -32,6 +51,7 @@ Hosts.getSupport = function (callback) {
 Hosts.checkSupport = function(hostname, callback) {
     if(!hostname) return callback(null, false);
     var module = HostSupport[hostname];
+    if(!module) return callback(null, false);
     if(typeof module.login === 'function' || typeof module.check === 'function') {
         return callback(null, true);
     } else {

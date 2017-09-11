@@ -8,8 +8,8 @@ var controllers = require('./controllers');
 
 module.exports = function (app, middleware, callback) {
     var checkLoggedMiddleware = [middleware.redirectToLoginFormIfNotLoggedIn];
-    app.get('/', checkLoggedMiddleware, controllers.home);
-
+    
+    app.get('/generate', checkLoggedMiddleware, controllers.home);
     var loginRegisterMiddleware = [middleware.redirectToAccountIfLoggedIn];
     app.get('/login', loginRegisterMiddleware, controllers.login);
     app.post('/login', middleware.applyCSRF, controllers.user.login);
