@@ -21,7 +21,6 @@ Controllers.home = function (req, res, next) {
             res.render('index', data);
         }
     ], next);
-
 };
 
 Controllers.login = function (req, res, next) {

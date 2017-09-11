@@ -13227,3 +13227,1085 @@ minh
 10/9 22:03:17 [5302] - [32minfo[39m: HuuMinh DL Script Ready
 10/9 22:03:17 [5302] - [32minfo[39m: Enabling 'trust proxy'
 10/9 22:03:17 [5302] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5302) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:17:02 [5608] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:17:02 [5608] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:17:02 [5608] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:17:02 [5608] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:17:02 [5608] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5608) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:17:07 [5613] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:17:07 [5613] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:17:08 [5613] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:17:08 [5613] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:17:08 [5613] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5613) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:17:08 [5617] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:17:08 [5617] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:17:09 [5617] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:17:09 [5617] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:17:09 [5617] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5617) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:19:14 [5628] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:19:14 [5628] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:19:15 [5628] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:19:15 [5628] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:19:15 [5628] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5628) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:19:38 [5634] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:19:39 [5634] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:19:39 [5634] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:19:39 [5634] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:19:39 [5634] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5634) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:20:11 [5640] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:20:12 [5640] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:20:12 [5640] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:20:12 [5640] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:20:12 [5640] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5640) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:20:24 [5645] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:20:24 [5645] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:20:24 [5645] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:20:24 [5645] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:20:24 [5645] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5645) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:20:41 [5663] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:20:42 [5663] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:20:42 [5663] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:20:42 [5663] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:20:42 [5663] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5663) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:21:45 [5670] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:21:45 [5670] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:21:45 [5670] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:21:45 [5670] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:21:45 [5670] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5670) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:21:56 [5679] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:21:57 [5679] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:21:57 [5679] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:21:57 [5679] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:21:57 [5679] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5679) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:22:32 [5685] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:22:33 [5685] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:22:33 [5685] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:22:33 [5685] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:22:33 [5685] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5685) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:22:48 [5690] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:22:49 [5690] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:22:49 [5690] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:22:49 [5690] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:22:49 [5690] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5690) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:22:58 [5695] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:22:58 [5695] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:22:58 [5695] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:22:58 [5695] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:22:58 [5695] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5695) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:25:27 [5712] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:25:28 [5712] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:25:28 [5712] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:25:28 [5712] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:25:28 [5712] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5712) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:25:34 [5716] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:25:34 [5716] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:25:34 [5716] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:25:34 [5716] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:25:34 [5716] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5716) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:25:54 [5732] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:25:55 [5732] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:25:55 [5732] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:25:55 [5732] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:25:55 [5732] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5732) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:26:01 [5736] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:26:01 [5736] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:26:01 [5736] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:26:01 [5736] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:26:01 [5736] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5736) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:27:40 [5748] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:27:41 [5748] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:27:41 [5748] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:27:41 [5748] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:27:41 [5748] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5748) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:27:56 [5752] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:27:56 [5752] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:27:56 [5752] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:27:56 [5752] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:27:56 [5752] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[ 'depfile.com',
+  'katfile.com',
+  'mega.nz',
+  'openload.co',
+  'rarefile.net',
+  'uploaded.net',
+  'youtube.com' ]
+[cluster] Child Process (5752) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:28:18 [5757] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:28:19 [5757] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:28:19 [5757] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:28:19 [5757] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:28:19 [5757] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5757) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:28:44 [5761] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:28:45 [5761] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:28:45 [5761] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:28:45 [5761] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:28:45 [5761] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5761) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:28:57 [5767] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:28:58 [5767] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:28:58 [5767] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:28:58 [5767] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:28:58 [5767] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5767) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:29:05 [5772] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:29:06 [5772] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:29:06 [5772] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:29:06 [5772] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:29:06 [5772] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5772) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:35:06 [5804] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:35:06 [5804] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:35:06 [5804] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:35:06 [5804] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:35:06 [5804] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5804) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:35:17 [5809] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:35:18 [5809] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:35:18 [5809] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:35:18 [5809] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:35:18 [5809] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5809) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:35:24 [5814] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:35:24 [5814] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:35:24 [5814] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:35:24 [5814] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:35:24 [5814] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5814) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:35:25 [5823] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:35:26 [5823] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:35:26 [5823] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:35:26 [5823] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:35:26 [5823] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5823) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:36:21 [5828] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:36:22 [5828] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:36:22 [5828] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:36:22 [5828] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:36:22 [5828] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5828) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:36:26 [5845] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:36:26 [5845] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:36:27 [5845] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:36:27 [5845] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:36:27 [5845] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5845) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:36:43 [5851] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:36:44 [5851] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:36:44 [5851] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:36:44 [5851] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:36:44 [5851] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5851) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:36:55 [5856] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:36:56 [5856] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:36:56 [5856] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:36:56 [5856] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:36:56 [5856] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5856) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:42:35 [5898] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:42:36 [5898] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:42:36 [5898] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:42:36 [5898] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:42:36 [5898] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5898) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:44:24 [5925] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:44:25 [5925] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:44:25 [5925] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:44:25 [5925] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:44:25 [5925] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (5925) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+10/9 22:46:09 [5955] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:46:09 [5955] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:46:09 [5955] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:46:09 [5955] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:46:09 [5955] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+10/9 22:54:55 [5955] - [32minfo[39m: Add filehost account
+10/9 22:54:57 [5955] - [32minfo[39m: Add filehost account
+10/9 22:55:20 [5955] - [32minfo[39m: [app] Restarting...
+[cluster] Restarting...
+10/9 22:55:20 [5955] - [32minfo[39m: [app] Shutdown (SIGTERM/SIGINT) Initialised.
+10/9 22:55:20 [5955] - [32minfo[39m: [app] Database connection closed.
+10/9 22:55:20 [5955] - [32minfo[39m: [app] Web server closed to connections.
+Clustering enabled: Spinning up 1 process(es).
+10/9 22:55:20 [5955] - [32minfo[39m: [app] Shutdown complete.
+
+Clustering enabled: Spinning up 1 process(es).
+
+[cluster] Child Process (5955) has exited (code: 0, signal: null)
+10/9 22:55:20 [6167] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:55:20 [6168] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:55:20 [6167] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:55:20 [6168] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:55:20 [6167] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:55:20 [6168] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:55:20 [6167] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:55:20 [6168] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:55:20 [6167] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+10/9 22:55:20 [6168] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+10/9 22:55:20 [6168] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (6168) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+10/9 22:55:21 [6169] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:55:21 [6169] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:55:21 [6169] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:55:21 [6169] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:55:21 [6169] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+10/9 22:55:21 [6169] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (6169) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+10/9 22:55:22 [6170] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:55:22 [6170] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:55:22 [6170] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:55:22 [6170] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:55:22 [6170] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+10/9 22:55:22 [6170] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (6170) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+10/9 22:55:22 [6171] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+10/9 22:55:23 [6171] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+10/9 22:55:23 [6171] - [32minfo[39m: HuuMinh DL Script Ready
+10/9 22:55:23 [6171] - [32minfo[39m: Enabling 'trust proxy'
+10/9 22:55:23 [6171] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+10/9 22:55:23 [6171] - [31merror[39m: HuuMinh DL address in use, exiting...
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+11/9 08:44:26 [8969] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:44:26 [8969] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:44:27 [8969] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:44:27 [8969] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:44:27 [8969] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:44:27 [8969] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (8969) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:44:27 [8970] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:44:27 [8970] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:44:27 [8970] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:44:27 [8970] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:44:27 [8970] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:44:27 [8970] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (8970) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:44:28 [8971] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:44:28 [8971] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:44:28 [8971] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:44:28 [8971] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:44:28 [8971] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:44:28 [8971] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (8971) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:44:29 [8972] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:44:29 [8972] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:44:29 [8972] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:44:29 [8972] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:44:29 [8972] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:44:29 [8972] - [31merror[39m: HuuMinh DL address in use, exiting...
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+11/9 08:49:13 [9032] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:13 [9032] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:13 [9032] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:13 [9032] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:13 [9032] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:13 [9032] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9032) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:14 [9034] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:14 [9034] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:14 [9034] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:14 [9034] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:14 [9034] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:14 [9034] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9034) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:14 [9035] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:15 [9035] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:15 [9035] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:15 [9035] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:15 [9035] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:15 [9035] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9035) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:15 [9036] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:16 [9036] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:16 [9036] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:16 [9036] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:16 [9036] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:16 [9036] - [31merror[39m: HuuMinh DL address in use, exiting...
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+11/9 08:49:18 [9038] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:19 [9038] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:19 [9038] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:19 [9038] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:19 [9038] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:19 [9038] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9038) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:19 [9040] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:20 [9040] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:20 [9040] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:20 [9040] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:20 [9040] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:20 [9040] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9040) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:20 [9041] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:20 [9041] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:20 [9041] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:20 [9041] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:20 [9041] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:20 [9041] - [31merror[39m: HuuMinh DL address in use, exiting...
+[cluster] Child Process (9041) has exited (code: 1, signal: null)
+[cluster] Spinning up another process...
+11/9 08:49:21 [9042] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:49:21 [9042] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:49:21 [9042] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:49:21 [9042] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:49:21 [9042] - [31merror[39m:  Error: listen EADDRINUSE 0.0.0.0:3000
+    at Object.exports._errnoException (util.js:1050:11)
+    at exports._exceptionWithHostPort (util.js:1073:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1259:14)
+    at listenInCluster (net.js:1307:12)
+    at doListen (net.js:1432:7)
+    at _combinedTickCallback (internal/process/next_tick.js:83:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)
+11/9 08:49:21 [9042] - [31merror[39m: HuuMinh DL address in use, exiting...
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+11/9 08:50:51 [9059] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:50:51 [9059] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:50:51 [9059] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:50:51 [9059] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:50:51 [9059] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9059) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:51:05 [9067] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:51:06 [9067] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:51:06 [9067] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:51:06 [9067] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:51:06 [9067] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9067) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:51:38 [9075] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:51:39 [9075] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:51:39 [9075] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:51:39 [9075] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:51:39 [9075] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9075) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:52:06 [9085] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:52:06 [9085] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:52:06 [9085] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:52:06 [9085] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:52:06 [9085] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9085) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:52:28 [9090] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:52:29 [9090] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:52:29 [9090] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:52:29 [9090] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:52:29 [9090] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9090) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:52:40 [9095] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:52:40 [9095] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:52:40 [9095] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:52:40 [9095] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:52:40 [9095] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9095) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:53:02 [9102] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:53:02 [9102] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:53:02 [9102] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:53:02 [9102] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:53:02 [9102] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9102) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:53:15 [9107] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:53:15 [9107] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:53:15 [9107] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:53:15 [9107] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:53:15 [9107] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9107) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:53:43 [9112] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:53:43 [9112] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:53:43 [9112] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:53:43 [9112] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:53:43 [9112] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9112) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:53:54 [9116] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:53:55 [9116] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:53:55 [9116] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:53:55 [9116] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:53:55 [9116] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9116) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:54:04 [9122] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:54:05 [9122] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:54:05 [9122] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:54:05 [9122] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:54:05 [9122] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9122) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:54:14 [9127] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:54:15 [9127] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:54:15 [9127] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:54:15 [9127] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:54:15 [9127] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9127) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:55:41 [9137] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:55:42 [9137] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:55:42 [9137] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:55:42 [9137] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:55:42 [9137] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9137) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:56:17 [9142] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:56:17 [9142] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:56:18 [9142] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:56:18 [9142] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:56:18 [9142] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9142) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:56:19 [9146] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:56:19 [9146] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:56:19 [9146] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:56:19 [9146] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:56:19 [9146] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9146) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:56:27 [9150] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:56:27 [9150] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:56:27 [9150] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:56:27 [9150] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:56:27 [9150] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9150) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:57:14 [9155] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:57:14 [9155] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:57:14 [9155] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:57:14 [9155] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:57:14 [9155] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9155) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 08:58:19 [9164] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 08:58:20 [9164] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 08:58:20 [9164] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 08:58:20 [9164] - [32minfo[39m: Enabling 'trust proxy'
+11/9 08:58:20 [9164] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9164) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:00:40 [9179] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:00:41 [9179] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:00:41 [9179] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:00:41 [9179] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:00:41 [9179] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9179) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:01:04 [9186] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:01:04 [9186] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:01:04 [9186] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:01:04 [9186] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:01:04 [9186] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9186) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:02:17 [9199] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:02:17 [9199] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:02:18 [9199] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:02:18 [9199] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:02:18 [9199] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9199) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:02:33 [9203] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:02:34 [9203] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:02:34 [9203] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:02:34 [9203] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:02:34 [9203] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9203) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:03:23 [9208] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:03:23 [9208] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:03:23 [9208] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:03:23 [9208] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:03:23 [9208] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9208) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:04:00 [9214] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:04:01 [9214] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:04:01 [9214] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:04:01 [9214] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:04:01 [9214] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9214) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:04:54 [9220] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:04:55 [9220] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:04:55 [9220] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:04:55 [9220] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:04:55 [9220] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9220) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:05:20 [9230] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:05:21 [9230] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:05:21 [9230] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:05:21 [9230] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:05:21 [9230] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9230) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:06:33 [9235] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:06:34 [9235] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:06:34 [9235] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:06:34 [9235] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:06:34 [9235] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9235) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:06:56 [9242] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:06:57 [9242] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:06:57 [9242] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:06:57 [9242] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:06:57 [9242] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9242) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:07:05 [9247] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:07:05 [9247] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:07:05 [9247] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:07:05 [9247] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:07:05 [9247] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9247) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:07:36 [9253] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:07:36 [9253] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:07:37 [9253] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:07:37 [9253] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:07:37 [9253] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9253) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:08:04 [9258] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:08:04 [9258] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:08:04 [9258] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:08:04 [9258] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:08:04 [9258] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9258) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:19:36 [9290] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:19:36 [9290] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:19:36 [9290] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:19:36 [9290] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:19:36 [9290] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9290) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:20:07 [9297] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:20:07 [9297] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:20:07 [9297] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:20:07 [9297] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:20:07 [9297] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9297) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:20:15 [9302] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:20:16 [9302] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:20:16 [9302] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:20:16 [9302] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:20:16 [9302] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9302) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:21:15 [9321] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:21:16 [9321] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:21:16 [9321] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:21:16 [9321] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:21:16 [9321] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9321) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:21:55 [9326] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:21:56 [9326] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:21:56 [9326] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:21:56 [9326] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:21:56 [9326] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9326) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:22:00 [9331] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:22:00 [9331] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:22:00 [9331] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:22:00 [9331] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:22:00 [9331] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9331) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:23:15 [9336] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:23:16 [9336] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:23:16 [9336] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:23:16 [9336] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:23:16 [9336] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9336) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:23:57 [9341] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:23:58 [9341] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:23:58 [9341] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:23:58 [9341] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:23:58 [9341] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9341) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:24:27 [9346] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:24:28 [9346] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:24:28 [9346] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:24:28 [9346] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:24:28 [9346] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9346) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:24:43 [9350] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:24:43 [9350] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:24:43 [9350] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:24:43 [9350] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:24:43 [9350] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9350) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:25:12 [9355] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:25:13 [9355] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:25:13 [9355] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:25:13 [9355] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:25:13 [9355] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9355) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:25:27 [9361] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:25:27 [9361] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:25:27 [9361] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:25:27 [9361] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:25:27 [9361] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9361) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:27:16 [9411] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:27:17 [9411] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:27:17 [9411] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:27:17 [9411] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:27:17 [9411] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9411) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:28:14 [9418] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:28:14 [9418] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:28:15 [9418] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:28:15 [9418] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:28:15 [9418] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9418) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:28:23 [9423] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:28:23 [9423] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:28:23 [9423] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:28:23 [9423] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:28:23 [9423] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9423) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:28:29 [9428] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:28:30 [9428] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:28:30 [9428] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:28:30 [9428] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:28:30 [9428] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9428) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:29:04 [9435] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:29:04 [9435] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:29:04 [9435] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:29:04 [9435] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:29:04 [9435] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9435) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:29:39 [9441] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:29:39 [9441] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:29:39 [9441] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:29:39 [9441] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:29:39 [9441] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9441) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:29:41 [9445] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:29:41 [9445] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:29:41 [9445] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:29:41 [9445] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:29:41 [9445] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9445) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:31:44 [9480] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:31:45 [9480] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:31:45 [9480] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:31:45 [9480] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:31:45 [9480] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9480) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:32:44 [9490] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:32:44 [9490] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:32:44 [9490] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:32:44 [9490] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:32:44 [9490] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9490) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:33:26 [9497] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:33:27 [9497] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:33:27 [9497] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:33:27 [9497] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:33:27 [9497] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9497) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:33:51 [9504] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:33:52 [9504] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:33:52 [9504] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:33:52 [9504] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:33:52 [9504] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9504) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:35:49 [9514] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:35:49 [9514] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:35:49 [9514] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:35:49 [9514] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:35:49 [9514] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9514) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:36:13 [9519] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:36:13 [9519] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:36:13 [9519] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:36:13 [9519] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:36:13 [9519] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9519) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:36:50 [9529] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:36:50 [9529] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:36:50 [9529] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:36:50 [9529] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:36:50 [9529] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9529) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:37:40 [9536] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:37:40 [9536] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:37:40 [9536] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:37:40 [9536] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:37:40 [9536] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9536) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:38:14 [9541] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:38:15 [9541] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:38:15 [9541] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:38:15 [9541] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:38:15 [9541] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9541) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:38:28 [9546] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:38:29 [9546] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:38:29 [9546] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:38:29 [9546] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:38:29 [9546] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9546) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:40:00 [9552] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:40:01 [9552] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:40:01 [9552] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:40:01 [9552] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:40:01 [9552] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9552) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:40:06 [9556] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:40:06 [9556] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:40:07 [9556] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:40:07 [9556] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:40:07 [9556] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9556) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:40:13 [9561] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:40:13 [9561] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:40:13 [9561] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:40:13 [9561] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:40:13 [9561] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+3 restarts in 10 seconds, most likely an error on startup. Halting.
+
+HuuMinh Generate Scripts v0.0.1 Copyright (C) 2017 HuuMinh Technologies.
+This program comes with ABSOLUTELY NO WARRANTY.
+This is free software, and you are welcome to redistribute it under certain conditions.
+For the full license, please visit: http://www.gnu.org/copyleft/gpl.html
+
+Clustering enabled: Spinning up 1 process(es).
+
+11/9 09:40:44 [9568] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:40:45 [9568] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:40:45 [9568] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:40:45 [9568] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:40:45 [9568] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9568) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:40:49 [9575] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:40:50 [9575] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:40:50 [9575] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:40:50 [9575] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:40:50 [9575] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9575) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:41:21 [9580] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:41:22 [9580] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:41:22 [9580] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:41:22 [9580] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:41:22 [9580] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9580) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:41:39 [9589] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:41:39 [9589] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:41:40 [9589] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:41:40 [9589] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:41:40 [9589] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9589) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:42:00 [9594] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:42:01 [9594] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:42:01 [9594] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:42:01 [9594] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:42:01 [9594] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9594) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:42:16 [9599] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:42:16 [9599] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:42:16 [9599] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:42:16 [9599] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:42:16 [9599] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9599) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:42:51 [9605] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:42:52 [9605] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:42:52 [9605] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:42:52 [9605] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:42:52 [9605] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9605) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:43:22 [9609] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:43:23 [9609] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:43:23 [9609] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:43:23 [9609] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:43:23 [9609] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9609) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:43:38 [9614] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:43:39 [9614] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:43:39 [9614] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:43:39 [9614] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:43:39 [9614] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9614) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:43:41 [9618] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:43:41 [9618] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:43:41 [9618] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:43:41 [9618] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:43:41 [9618] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9618) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:44:12 [9623] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:44:12 [9623] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:44:12 [9623] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:44:12 [9623] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:44:12 [9623] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9623) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:44:52 [9628] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:44:53 [9628] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:44:53 [9628] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:44:53 [9628] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:44:53 [9628] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9628) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:45:07 [9633] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:45:07 [9633] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:45:07 [9633] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:45:07 [9633] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:45:07 [9633] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9633) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:47:24 [9646] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:47:24 [9646] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:47:24 [9646] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:47:24 [9646] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:47:24 [9646] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000
+[cluster] Child Process (9646) has exited (code: null, signal: SIGUSR2)
+[cluster] Spinning up another process...
+11/9 09:48:19 [9651] - [32minfo[39m: Initializing HuuMinh DL Script v0.0.1
+11/9 09:48:20 [9651] - [32minfo[39m: [socket.io] Restricting access to origin: http://localhost:*
+11/9 09:48:20 [9651] - [32minfo[39m: HuuMinh DL Script Ready
+11/9 09:48:20 [9651] - [32minfo[39m: Enabling 'trust proxy'
+11/9 09:48:20 [9651] - [32minfo[39m: HuuMinh DL Script is now listening on: 0.0.0.0:3000

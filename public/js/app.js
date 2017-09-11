@@ -25,6 +25,43 @@ var app = window.app || {};
         return toastr.error("Session invalid, please try login again!");
     };
 
+    $('#generate-button').click(function (e) {
+        e.stopImmediatePropagation();
+        var $textarea = $('#generate-area'),
+            $linkBox = $textarea.val().trim(),
+            $btn = $(this),
+            $btnText = $(this).text();
+        
+        $('#result').empty();
+        if($btn.hasClass('disabled')) return false;
+        $btn.addClass('disabled').text('Downloading...');
+        if($linkBox.length === 0) return;
+
+        var linksArr = $linkBox.split("\n");
+        var links = [];
+        $.each(linksArr, function(i, el){
+            if($.inArray(el, links) === -1) links.push(el);
+        });
+
+        for(var i, i=0; i < links.length; i++) {
+            if(ValidURL(links[i])) {
+                var xhtml = tmpl("tmpl-generate", {"link": links[i]});
+                $('#result').append(xhtml);
+            } else {
+                console.log('b');
+            }
+        }
+
+        if(links.length === 0) {
+            $textarea.val('');
+            $btn.removeClass('disabled').text($btnText);
+            return false;
+        }
+
+
+        $btn.removeClass('disabled').text($btnText);
+    });
+
     $('#addAccount').click(function (e) {
         e.preventDefault();
         var hostname = $('#hostname').val(),
@@ -81,7 +118,15 @@ var app = window.app || {};
                 $expire.text('');
             }
         });
+    }
 
+    function ValidURL(str) {
+        var regex = /(http|https):\/\/(\w+:{0,1}\w*)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
+        if(!regex .test(str)) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     $('#addAccountButton').click(function (e) {
