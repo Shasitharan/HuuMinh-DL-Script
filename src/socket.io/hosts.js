@@ -50,5 +50,6 @@ HostsSocket.removeAccount = function (socket, data, callback) {
 
 HostsSocket.generate = function (socket, data, callback) {
     if(!data.link) return callback(new Error('Invalid data'));
-    hosts.generate(data.link, callback);
+    data.ip = socket.ip;
+    hosts.generate(data, callback);
 };

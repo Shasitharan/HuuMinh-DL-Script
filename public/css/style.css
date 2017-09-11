@@ -63,11 +63,20 @@ footer .copyright {
 .badge.error {
   background: #a94442;
   color: #fff; }
+.badge.success {
+  background-color: green;
+  color: #fff; }
 
 a.bg-danger:focus, a.bg-danger:hover {
   background-color: #e4b9b9; }
 
 .bg-danger {
   background-color: #f2dede; }
+
+.bg-success {
+  background-color: #dff0d8; }
+
+a.bg-success:focus, a.bg-success:hover {
+  background-color: #c1e2b3; }
 
 /*# sourceMappingURL=style.css.map */

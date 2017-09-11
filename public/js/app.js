@@ -41,7 +41,7 @@ var app = window.app || {};
             if($.inArray(el, links) === -1) links.push(el);
         });
 
-        //$textarea.val('');
+        $textarea.val('');
 
         for(var i, i=0; i < links.length; i++) {
             if(ValidURL(links[i])) {
@@ -65,8 +65,12 @@ var app = window.app || {};
                     $el.addClass('bg-danger').append('<span class="pull-right badge error">'+err.message+'</span>');
                     return false;
                 }
-
-                console.log(result);
+                if(result) {
+                    $el.attr('href', result.download_url);
+                    $el.find('.fa').removeClass('fa-refresh fa-spin').addClass('fa-check-square-o text-success');
+                    $el.find('.links').text(decodeURIComponent(result.filename));
+                    $el.addClass('bg-success').append('<span class="pull-right badge success">'+bytesToSize(result.filesize)+'</span>');
+                }
             });
         });
 
@@ -217,6 +221,13 @@ var app = window.app || {};
         }
     });
 })();
+
+function bytesToSize(bytes) {
+    var sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    if (bytes == 0) return '0 Byte';
+    var i = parseInt(Math.floor(Math.log(bytes) / Math.log(1024)));
+    return Math.round(bytes / Math.pow(1024, i), 2) + ' ' + sizes[i];
+};
 
 function disconnectSession(e) {
     var me = $(e),

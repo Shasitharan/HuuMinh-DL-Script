@@ -2,8 +2,15 @@
 
 var request = require('request'),
     meta = require('../meta'),
-    rp = require('request-promise');
+    rp = require('request-promise'),
+    async = require('async');
 
+request = request.defaults({
+    jar: true,
+    headers:{
+        'User-Agent': meta.config.userAgent,
+    },
+});
 rp = rp.defaults({
     jar: true,
     headers:{
@@ -62,6 +69,31 @@ Host.check = function (cookie, callback) {
     });
 };
 
-Host.download = function () {
-    
+Host.download = function (url, cookie, callback) {
+    var options = {
+        url: url,
+        headers:{
+            'User-Agent': meta.config.userAgent,
+            'cookie': cookie
+        },
+    };
+    async.waterfall([
+        function (next) {
+            request.head(options, function (err) {
+                if(err) return callback(null, err.message);
+                if(this.uri.href)
+                    next(null, this.uri.href);
+                else {
+                    next(null, false);
+                }
+            });
+        },
+        function (redirect) {
+            if(redirect) return callback(null, redirect);
+            callback(null, false);
+        }
+    ], callback);
+
+
+
 };

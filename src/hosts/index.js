@@ -3,7 +3,12 @@
 var fs = require('fs');
 var async = require('async');
 var winston = require('winston');
+var request = require('request');
+var meta = require('../meta');
+var utils = require('../utils');
+var nconf = require('nconf');
 const url = require('url');
+
 
 var db = require('../database');
 
@@ -15,19 +20,37 @@ Hosts.init = function (callback) {
     callback();
 };
 
-Hosts.generate = function (link, callback) {
-    if(!link) return callback('Invalid data');
+Hosts.generate = function (data, callback) {
+    if(!data.link) return callback('Invalid data');
     winston.info('Generating download link');
-
+    var link = data.link;
     var urlParse = url.parse(link);
     if(!urlParse.hostname) return callback('Invalid url');
-    var hostname = urlParse.hostname;
+    var hostname = urlParse.hostname.toLowerCase();
     async.waterfall([
         function (next) {
             Hosts.checkSupport(hostname, next);
         },
         function (status, next) {
-            if(!status) return callback(new Error(hostname+' is not supported'));
+            var module = HostSupport[hostname];
+            if(!status || !module) return callback(new Error(hostname+' is not supported'));
+
+            if(typeof module.login === 'function' || typeof module.check === 'function') {
+                // Premium Leeching
+                premiumGenerate(module, data, next);
+            } else {
+                // Free Leeching
+            }
+        },
+        function (result, next) {
+            if(result) {
+                var resp = {
+                    'download_url': nconf.get('url') + 'download/' + result.id,
+                    'filename': result.filename,
+                    'filesize': result.filesize
+                };
+                callback(null, resp);
+            }
         }
     ], callback);
 };
@@ -176,6 +199,93 @@ Hosts.removeAccount = function(id, callback) {
         }
     ], callback);
 };
+
+function premiumGenerate(module, data, callback) {
+    var link = data.link;
+    var urlParse = url.parse(link);
+    if(!urlParse.hostname) return callback('Invalid url');
+    var hostname = urlParse.hostname.toLowerCase();
+    var cookie, download_url;
+    async.waterfall([
+        function (next) {
+            db.getSortedSetRevRange('accounts:'+hostname, 0, -1, next);
+        },
+        function (ids, next) {
+            if(ids.length === 0) return callback(new Error("No account for "+hostname+" was found!"));
+            var keys = ids.map(function (id) {
+                return 'account:'+id;
+            });
+            db.getObjects(keys, next);
+        },
+        function (accounts, next) {
+            getCookie(accounts, next);
+        },
+        function (_cookie, next) {
+            cookie = _cookie;
+            module.download(link, cookie, next);
+        },
+        function (result, next) {
+            if(!result) return callback(new Error('Generate link error'));
+            download_url = result;
+            getFile(download_url, cookie, next);
+        },
+        function (filename, filesize, next) {
+            if(filename === 'unknown') {
+                var downloadUrlParse = download_url.split('/');
+                if(downloadUrlParse[downloadUrlParse.length-1]) filename = downloadUrlParse[downloadUrlParse.length-1];
+            }
+            var download_id = utils.generateUUID();
+            var download = {
+                id: download_id,
+                download: download_url,
+                cookie: cookie,
+                filename: filename,
+                filesize: filesize,
+                original: link,
+                ip: data.ip
+            };
+
+            db.setObject('download:'+download_id, download);
+            db.expire('download:'+download_id, 3600);
+            callback(null, download);
+        }
+    ], callback);
+}
+
+function getFile(url, cookie, callback) {
+    request = request.defaults({
+        'User-Agent': meta.config.userAgent,
+        'cookie': cookie
+    });
+    var regexp = /filename=\"(.*)\"/gi;
+
+    request.head(url, function (err, res) {
+        var filesize = res.headers['content-length'];
+        var matche = regexp.exec( res.headers['content-disposition'] );
+        var filename = "unknown";
+        if(matche) filename = matche[1].trim();
+        callback(null, filename, filesize);
+    });
+}
+
+function getCookie(accounts, callback) {
+    if(typeof accounts[0] === 'undefined') return callback(null, false);
+    var account = accounts[0];
+    async.waterfall([
+        function (next) {
+            db.get('accounts:errors:'+account.id, next);
+        },
+        function (err, next) {
+            if(err) {
+                return getCookie(accounts.splice(0), callback);
+            }
+            db.get('cookies:'+account.id, next);
+        },
+        function (cookie, next) {
+            return callback(null, cookie);
+        }
+    ], callback);
+}
 
 function requireModules() {
     async.waterfall([
