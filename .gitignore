@@ -4,3 +4,6 @@
 node_modules
 logs/output.log
 *.log
+*.gz
+*.log
+logs/output.log

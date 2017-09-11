@@ -31,32 +31,44 @@ var app = window.app || {};
             $linkBox = $textarea.val().trim(),
             $btn = $(this),
             $btnText = $(this).text();
-        
-        $('#result').empty();
-        if($btn.hasClass('disabled')) return false;
-        $btn.addClass('disabled').text('Downloading...');
-        if($linkBox.length === 0) return;
 
+        if($btn.hasClass('disabled') || $linkBox.length === 0) return false;
+        $('#result').empty();
+        $btn.addClass('disabled').text('Downloading...');
         var linksArr = $linkBox.split("\n");
         var links = [];
         $.each(linksArr, function(i, el){
             if($.inArray(el, links) === -1) links.push(el);
         });
 
+        //$textarea.val('');
+
         for(var i, i=0; i < links.length; i++) {
             if(ValidURL(links[i])) {
                 var xhtml = tmpl("tmpl-generate", {"link": links[i]});
                 $('#result').append(xhtml);
-            } else {
-                console.log('b');
             }
         }
 
-        if(links.length === 0) {
-            $textarea.val('');
+        var $linkWrap = $('#result a');
+        if($linkWrap.length === 0) {
             $btn.removeClass('disabled').text($btnText);
             return false;
         }
+
+        $linkWrap.each(function () {
+            var $el = $(this),
+                link = $el.attr('href');
+            socket.emit('hosts.generate', {link: link}, function (err, result) {
+                if(err) {
+                    $el.find('.fa').removeClass('fa-refresh fa-spin').addClass('fa-exclamation-circle text-danger');
+                    $el.addClass('bg-danger').append('<span class="pull-right badge error">'+err.message+'</span>');
+                    return false;
+                }
+
+                console.log(result);
+            });
+        });
 
 
         $btn.removeClass('disabled').text($btnText);

@@ -60,4 +60,14 @@ footer .copyright {
   footer .copyright p {
     margin: 0; }
 
+.badge.error {
+  background: #a94442;
+  color: #fff; }
+
+a.bg-danger:focus, a.bg-danger:hover {
+  background-color: #e4b9b9; }
+
+.bg-danger {
+  background-color: #f2dede; }
+
 /*# sourceMappingURL=style.css.map */
