@@ -24,6 +24,8 @@ module.exports = function (app, middleware, callback) {
     app.get('/settings', checkLoggedMiddleware, controllers.settings);
 
     app.get('/files', checkLoggedMiddleware, controllers.files);
+    app.get('/download/:id', controllers.download);
+    app.get('/generate/api', controllers.apiCreate);
 
     app.post('/settings', checkLoggedMiddleware, controllers.updateSettings);
     callback();

@@ -8,12 +8,14 @@ var request = require('request'),
 request = request.defaults({
     jar: true,
     headers:{
+        'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         'User-Agent': meta.config.userAgent,
     },
 });
 rp = rp.defaults({
     jar: true,
     headers:{
+        'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
         'User-Agent': meta.config.userAgent,
         'cookie': 'lang=english;'
     },
@@ -23,49 +25,30 @@ rp = rp.defaults({
 
 var Host = module.exports;
 
-Host.login = function (username, password, callback) {
-    var j = rp.jar(),
-        loginUrl = "http://katfile.com/";
-
-    var options = {
-        uri: loginUrl,
-        method: 'POST',
-        form: {
-            login: username,
-            password: password,
-            op: 'login',
-            redirect: 'http://katfile.com/&rand=&token='
-        },
-        jar: j
-    };
-
-    rp(options).then(function (body) {
-        var cookie = j.getCookieString(loginUrl);
-        callback(null, cookie);
-    }).catch(function (err) {
-        callback(new Error('Could not connect to katfile.com'));
-    });
-};
-
 Host.check = function (cookie, callback) {
+    var j = rp.jar();
     rp = rp.defaults({
+        jar: j,
         headers: {
             cookie: cookie
         }
     });
-    rp('http://katfile.com/?op=my_account').then(function (body) {
-        if(/Extend Premium account/.test(body)) {
-            const regex = /account expire<\/TD><TD><b>(.*)<\/b>/g;
-            var match = regex.exec(body);
-            if(typeof match[1] !== 'undefined') {
-                return callback(null, true, match[1]);
-            } else {
-                return callback(null, true, "Unknown");
+    rp('https://www.extmatrix.com/').then(function (body) {
+        //var cookie = j.getCookieString('https://www.extmatrix.com/');
+        if(/Premium Member/.test(body)) {
+            if(body) {
+                var match = body.match(/<td>(.*)<\/td>/g);
+                if(match && typeof match[7] !== 'undefined') {
+                    var expire = match[7].replace('<td>', '').replace('</td>', '');
+                    return callback(null, true, expire);
+                } else {
+                    return callback(null, true, "Unknown");
+                }
             }
         }
         return callback(null, false, false);
     }).catch(function (err) {
-        callback(new Error("Could not connect to katfile.com"));
+        callback(new Error(err.message));
     });
 };
 
@@ -82,9 +65,9 @@ Host.download = function (url, cookie, callback) {
         function (next) {
             request.get(options, function (err, res) {
                 if(err) return callback(null, err.message);
-                if(/file not found/.test(res.body)) {
+                if(/requested does not exists/.test(res.body)) {
                     return callback(new Error('Link dead'));
-                } else if(/Choose download type/.test(res.body)) {
+                } else if(/default\/images\/buy_now\.gif/.test(res.body)) {
                     return callback(new Error('Account limit'));
                 }
                 if(res.headers['location'])

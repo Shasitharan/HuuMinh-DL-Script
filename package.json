@@ -49,6 +49,7 @@
     "redis": "^2.7.1",
     "request": "^2.81.0",
     "request-promise": "^4.2.1",
+    "sanitize-filename": "^1.6.1",
     "serve-favicon": "~2.4.2",
     "socket.io": "^2.0.3",
     "socket.io-redis": "^5.1.0",

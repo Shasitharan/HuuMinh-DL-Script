@@ -9,6 +9,56 @@ var Controllers = module.exports;
 Controllers.user = require('./user');
 Controllers.account = require('./account');
 
+Controllers.download = function (req, res, next) {
+    // Do download file by req id
+    Hosts.download(req, res, next);
+};
+
+Controllers.apiCreate = function (req, res, callback) {
+    if(!req.query.link) {
+        res.json({
+            error: true,
+            error_message: "Invalid data"
+        });
+    } else {
+        var data = {
+            link: req.query.link,
+            ip: req.ip
+        };
+
+        async.waterfall([
+            function (next) {
+                Hosts.generate(data, next);
+            },
+            function (result, next) {
+                if(result) {
+                    res.json({
+                        error: false,
+                        download: result.download_url,
+                        filename: result.filename,
+                        filesize: result.filesize
+                    });
+                } else {
+                    res.json({
+                        error: true,
+                        error_message: "Could not connect to server",
+                    });
+                }
+            }
+        ], function (err) {
+            if(err) {
+                res.json({
+                    error: true,
+                    error_message: err.message,
+                });
+            } else {
+                callback();
+            }
+        });
+    }
+};
+
+
 Controllers.home = function (req, res, next) {
     var data = {};
     data.title = "Download";

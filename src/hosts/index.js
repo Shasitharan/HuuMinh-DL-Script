@@ -7,6 +7,8 @@ var request = require('request');
 var meta = require('../meta');
 var utils = require('../utils');
 var nconf = require('nconf');
+var sanitize = require("sanitize-filename");
+
 const url = require('url');
 
 
@@ -20,13 +22,47 @@ Hosts.init = function (callback) {
     callback();
 };
 
+Hosts.download = function (req, res, callback) {
+    var id = req.params.id;
+    async.waterfall([
+        function (next) {
+            db.getObject('download:'+id, next);
+        },
+        function (data) {
+            if(!data) {
+                res.status(404).send('File not found!');
+            } else {
+                request = request.defaults({
+                    'User-Agent': meta.config.userAgent,
+                    'cookie': data.cookie || "",
+                });
+
+                if(data.filename) {
+                    var filename = sanitize(data.filename);
+                    res.writeHead(200, {
+                        "Content-Type": "application/force-download",
+                        "Content-Length": + data.filesize,
+                        "Content-Disposition" : "attachment; filename=" + filename});
+                }
+
+                request.get(data.download).pipe(res);
+            }
+        }
+    ], callback);
+};
+
 Hosts.generate = function (data, callback) {
     if(!data.link) return callback('Invalid data');
     winston.info('Generating download link');
     var link = data.link;
     var urlParse = url.parse(link);
     if(!urlParse.hostname) return callback('Invalid url');
-    var hostname = urlParse.hostname.toLowerCase();
+    var hostname = urlParse.hostname.toLowerCase().replace('www.', '');
+
+    if(/dfpan\.com/.test(hostname) || /dix3\.com/.test(hostname) || /needisk\.com/.test(hostname) || /yunfile\.com/.test(hostname)) {
+        hostname = 'yunfile.com';
+    }
+
     async.waterfall([
         function (next) {
             Hosts.checkSupport(hostname, next);
@@ -175,6 +211,7 @@ Hosts.checkAccount = function (id, callback) {
                 status = "valid";
             }
             db.setObjectField('account:'+account.id, 'status', status);
+            db.setObjectField('account:'+account.id, 'expire', expire);
             callback(null, {
                 'status': status,
                 'expire': expire
@@ -204,8 +241,13 @@ function premiumGenerate(module, data, callback) {
     var link = data.link;
     var urlParse = url.parse(link);
     if(!urlParse.hostname) return callback('Invalid url');
-    var hostname = urlParse.hostname.toLowerCase();
-    var cookie, download_url;
+    var hostname = urlParse.hostname.toLowerCase().replace('www.', '');
+    var cookie, download_url, account_id;
+
+    if(/dfpan\.com/.test(hostname) || /dix3\.com/.test(hostname) || /needisk\.com/.test(hostname) || /yunfile\.com/.test(hostname)) {
+        hostname = 'yunfile.com';
+    }
+
     async.waterfall([
         function (next) {
             db.getSortedSetRevRange('accounts:'+hostname, 0, -1, next);
@@ -220,14 +262,20 @@ function premiumGenerate(module, data, callback) {
         function (accounts, next) {
             getCookie(accounts, next);
         },
-        function (_cookie, next) {
+        function (_cookie, _account_id, next) {
             cookie = _cookie;
+            account_id = _account_id;
             module.download(link, cookie, next);
         },
         function (result, next) {
             if(!result) return callback(new Error('Generate link error'));
-            download_url = result;
-            getFile(download_url, cookie, next);
+            if(typeof result === 'object'){
+                download_url = result.download;
+                cookie = result.cookie;
+            } else {
+                download_url = result;
+            }
+            getFile(download_url, cookie, link, next);
         },
         function (filename, filesize, next) {
             if(filename === 'unknown') {
@@ -246,24 +294,53 @@ function premiumGenerate(module, data, callback) {
             };
 
             db.setObject('download:'+download_id, download);
-            db.expire('download:'+download_id, 3600);
+            db.expire('download:'+download_id, 43200);
             callback(null, download);
         }
-    ], callback);
+    ], function (err) {
+        if(err) {
+            if(/limit/.test(err.message)) {
+                db.set('accounts:errors:'+account_id, true);
+                db.expire('accounts:errors:'+account_id, 600);
+            }
+            callback(err);
+        } else {
+            callback();
+        }
+    });
 }
 
-function getFile(url, cookie, callback) {
+String.prototype.replaceAll = function(search, replacement) {
+    var target = this;
+    return target.replace(new RegExp(search, 'g'), replacement);
+};
+
+function getFile(url, cookie, referer, callback) {
+    if(typeof referer === 'function'){
+        callback = referer;
+        referer = "";
+    }
+    var j = request.jar();
     request = request.defaults({
-        'User-Agent': meta.config.userAgent,
-        'cookie': cookie
+        jar: true,
+        headers:{
+            'Accept': "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            'User-Agent': meta.config.userAgent,
+            'Cookie': cookie,
+            "Referer": referer,
+        },
     });
-    var regexp = /filename=\"(.*)\"/gi;
 
     request.head(url, function (err, res) {
         var filesize = res.headers['content-length'];
-        var matche = regexp.exec( res.headers['content-disposition'] );
         var filename = "unknown";
-        if(matche) filename = matche[1].trim();
+        if(res.headers['content-disposition']){
+            var fname = res.headers['content-disposition'].replace('attachment; filename=', '').trim();
+            if(fname.length > 0) {
+                filename = fname.replaceAll('"', '');
+            }
+        }
+
         callback(null, filename, filesize);
     });
 }
@@ -282,7 +359,7 @@ function getCookie(accounts, callback) {
             db.get('cookies:'+account.id, next);
         },
         function (cookie, next) {
-            return callback(null, cookie);
+            return callback(null, cookie, account.id);
         }
     ], callback);
 }

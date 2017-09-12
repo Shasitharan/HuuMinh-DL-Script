@@ -25,7 +25,7 @@ var Host = module.exports;
 
 Host.login = function (username, password, callback) {
     var j = rp.jar(),
-        loginUrl = "http://katfile.com/";
+        loginUrl = "https://login.uptobox.com/logarithme";
 
     var options = {
         uri: loginUrl,
@@ -34,7 +34,6 @@ Host.login = function (username, password, callback) {
             login: username,
             password: password,
             op: 'login',
-            redirect: 'http://katfile.com/&rand=&token='
         },
         jar: j
     };
@@ -43,7 +42,7 @@ Host.login = function (username, password, callback) {
         var cookie = j.getCookieString(loginUrl);
         callback(null, cookie);
     }).catch(function (err) {
-        callback(new Error('Could not connect to katfile.com'));
+        callback(new Error('Could not connect to uptobox.com'));
     });
 };
 
@@ -53,19 +52,20 @@ Host.check = function (cookie, callback) {
             cookie: cookie
         }
     });
-    rp('http://katfile.com/?op=my_account').then(function (body) {
-        if(/Extend Premium account/.test(body)) {
-            const regex = /account expire<\/TD><TD><b>(.*)<\/b>/g;
+    rp('https://uptobox.com/?op=my_account').then(function (body) {
+        if(/Premium-Account expire/.test(body)) {
+            const regex = /Premium-Account expire:(.*)<\/strong><\/div>/g;
             var match = regex.exec(body);
+
             if(typeof match[1] !== 'undefined') {
-                return callback(null, true, match[1]);
+                return callback(null, true, match[1].trim());
             } else {
                 return callback(null, true, "Unknown");
             }
         }
         return callback(null, false, false);
     }).catch(function (err) {
-        callback(new Error("Could not connect to katfile.com"));
+        callback(new Error("Could not connect to uptobox.com"));
     });
 };
 
@@ -82,14 +82,10 @@ Host.download = function (url, cookie, callback) {
         function (next) {
             request.get(options, function (err, res) {
                 if(err) return callback(null, err.message);
-                if(/file not found/.test(res.body)) {
-                    return callback(new Error('Link dead'));
-                } else if(/Choose download type/.test(res.body)) {
-                    return callback(new Error('Account limit'));
-                }
-                if(res.headers['location'])
+                if(res.headers['location']) {
+                    if(/404\.html/.test(res.headers['location'])) return callback(new Error('Link dead'));
                     next(null, res.headers['location']);
-                else {
+                } else {
                     next(null, false);
                 }
             });

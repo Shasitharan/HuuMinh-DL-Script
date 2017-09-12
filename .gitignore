@@ -8,3 +8,4 @@ logs/output.log
 *.log
 logs/output.log
 logs/output.log
+.DS_Store
