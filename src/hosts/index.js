@@ -7,10 +7,11 @@ var request = require('request');
 var meta = require('../meta');
 var utils = require('../utils');
 var nconf = require('nconf');
+
 var sanitize = require("sanitize-filename");
 
 const url = require('url');
-
+const mega = require('megajs');
 
 var db = require('../database');
 
@@ -32,20 +33,30 @@ Hosts.download = function (req, res, callback) {
             if(!data) {
                 res.status(404).send('File not found!');
             } else {
-                request = request.defaults({
-                    'User-Agent': meta.config.userAgent,
-                    'cookie': data.cookie || "",
-                });
+                if(typeof data.hostname !== 'undefined' && data.hostname === 'mega.nz') {
+                    if(data.filename) {
+                        var filename = sanitize(data.filename);
+                        res.writeHead(200, {
+                            "Content-Type": "application/force-download",
+                            "Content-Length": + data.filesize,
+                            "Content-Disposition" : "attachment; filename=" + filename});
+                    }
+                    mega.file(data.download).download().pipe(res);
+                } else {
+                    request = request.defaults({
+                        'User-Agent': meta.config.userAgent,
+                        'cookie': data.cookie || "",
+                    });
 
-                if(data.filename) {
-                    var filename = sanitize(data.filename);
-                    res.writeHead(200, {
-                        "Content-Type": "application/force-download",
-                        "Content-Length": + data.filesize,
-                        "Content-Disposition" : "attachment; filename=" + filename});
+                    if(data.filename) {
+                        var filename = sanitize(data.filename);
+                        res.writeHead(200, {
+                            "Content-Type": "application/force-download",
+                            "Content-Length": + data.filesize,
+                            "Content-Disposition" : "attachment; filename=" + filename});
+                    }
+                    request.get(data.download).pipe(res);
                 }
-
-                request.get(data.download).pipe(res);
             }
         }
     ], callback);
@@ -75,6 +86,7 @@ Hosts.generate = function (data, callback) {
                 // Premium Leeching
                 premiumGenerate(module, data, next);
             } else {
+                freeGenerate(module, data, next);
                 // Free Leeching
             }
         },
@@ -111,7 +123,7 @@ Hosts.checkSupport = function(hostname, callback) {
     if(!hostname) return callback(null, false);
     var module = HostSupport[hostname];
     if(!module) return callback(null, false);
-    if(typeof module.login === 'function' || typeof module.check === 'function') {
+    if(typeof module.login === 'function' || typeof module.check === 'function' || typeof module.download === 'function') {
         return callback(null, true);
     } else {
         return callback(null, false);
@@ -285,6 +297,7 @@ function premiumGenerate(module, data, callback) {
             var download_id = utils.generateUUID();
             var download = {
                 id: download_id,
+                hostname: hostname,
                 download: download_url,
                 cookie: cookie,
                 filename: filename,
@@ -308,6 +321,39 @@ function premiumGenerate(module, data, callback) {
             callback();
         }
     });
+}
+
+function freeGenerate(module, data, callback) {
+    var link = data.link;
+    var urlParse = url.parse(link);
+    if(!urlParse.hostname) return callback('Invalid url');
+    var hostname = urlParse.hostname.toLowerCase().replace('www.', '');
+    var download_url;
+
+    async.waterfall([
+        function (next) {
+            module.download(link, next);
+        },
+        function (result, next) {
+            if(hostname === 'mega.nz') {
+                var download_id = utils.generateUUID();
+                var download = {
+                    id: download_id,
+                    hostname: hostname,
+                    download: result.url,
+                    cookie: null,
+                    filename: result.filename,
+                    filesize: result.filesize,
+                    original: link,
+                    ip: data.ip
+                };
+                db.setObject('download:'+download_id, download);
+                db.expire('download:'+download_id, 43200);
+                return callback(null, download);
+            }
+            console.log(result);
+        }
+    ], callback);
 }
 
 String.prototype.replaceAll = function(search, replacement) {
@@ -335,12 +381,11 @@ function getFile(url, cookie, referer, callback) {
         var filesize = res.headers['content-length'];
         var filename = "unknown";
         if(res.headers['content-disposition']){
-            var fname = res.headers['content-disposition'].replace('attachment; filename=', '').trim();
+            var fname = res.headers['content-disposition'].replace('attachment; filename=', '').replace('attachment', '').trim();
             if(fname.length > 0) {
                 filename = fname.replaceAll('"', '');
             }
         }
-
         callback(null, filename, filesize);
     });
 }

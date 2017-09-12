@@ -63,7 +63,7 @@ Host.download = function (url, cookie, callback) {
     };
     async.waterfall([
         function (next) {
-            request.get(options, function (err, res) {
+            request.get(options, function (err, res, body) {
                 if(err) return callback(null, err.message);
                 if(/requested does not exists/.test(res.body)) {
                     return callback(new Error('Link dead'));
@@ -73,7 +73,13 @@ Host.download = function (url, cookie, callback) {
                 if(res.headers['location'])
                     next(null, res.headers['location']);
                 else {
-                    next(null, false);
+                    var regex = /id='jd_support' href="(.*)"><\/a>/g;
+                    var match = regex.exec(body);
+                    if(match) {
+                        next(null, match[1].trim());
+                    }else {
+                        return callback(new Error('Could not connect to extmatrix.com'));
+                    }
                 }
             });
         },
