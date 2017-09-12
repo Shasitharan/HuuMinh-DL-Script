@@ -3,8 +3,14 @@ HuuMinh DL Script is script generator premium link that allows you to download f
 > Version: **0.0.1**\
 > Copyright: **HuuMinh Technologies**\
 > Author: **Nguyen Minh**\
-> Homepage: **https://huuminh.net** \
-> Support: **https://huuminh.net/contact-us/**
+> Support: **https://www.facebook.com/huuminh.me**
+
+## Host supported
+- mega.nz
+- katfile.com
+- yunfile.com
+- extmatrix.com
+- uptobox.com
 
 ## Usage
 1. `npm install -g huuminh-dl`
